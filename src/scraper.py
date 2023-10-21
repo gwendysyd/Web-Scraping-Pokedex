@@ -10,6 +10,7 @@ class PokemonScraper():
         self.pokemon_list = []
 
     def scrape_pokemon_data(self):
+        print("Scraping has started...")
         page_data = requests.get(self.url)
         soup = BeautifulSoup(page_data.content, 'html.parser')
         select_element = soup.find('select', attrs={'name': 'SelectURL'})
