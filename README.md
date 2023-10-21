@@ -14,9 +14,9 @@ Nombres de los integrantes del equipo
 
 ## Ficheros
 
-**requirements.txt**: Contiene las librerías que son necesarias para el correcto funcionamiento del programa.
-**main.py**: Ejecutable para iniciarl el proceso de Scraping.
-**src/scraper.py**: Contiene la clase PokemonScraper con la implementación del proceso para obtener datos de la web https://www.serebii.net/pokedex
+* **requirements.txt**: Contiene las librerías que son necesarias para el correcto funcionamiento del programa.
+* **main.py**: Ejecutable para iniciarl el proceso de Scraping.
+* **src/scraper.py**: Contiene la clase PokemonScraper con la implementación del proceso para obtener datos de la web [serebii pokedex](https://www.serebii.net/pokedex)
 
 ## Instrucciones de uso
 
