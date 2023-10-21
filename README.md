@@ -27,6 +27,12 @@ después clona el repositorio
 
  `git clone git@github.com:gwendysyd/Web-Scraping-Pokedex.git`
 
+ cd  Web-Scraping-Pokedex-main
+
+ python main.py
+
+ El csv final se guardará en la carpeta output.
+
 ## Recursos
 
 Añadir bibliografía
