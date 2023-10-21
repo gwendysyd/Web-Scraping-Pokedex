@@ -29,13 +29,13 @@ después clona el repositorio
 
 navega hasta el directorio principal
 
- `cd  Web-Scraping-Pokedex-main`
+`cd  Web-Scraping-Pokedex-main`
 
- y ejecuta el archivo main.py
+y ejecuta el archivo main.py
  
- `python main.py`
+`python main.py`
 
- El csv final con el resultado se guardará en la carpeta `output`.
+El csv final con el resultado se guardará en la carpeta `output`.
 
 ## Recursos
 
