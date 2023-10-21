@@ -25,13 +25,17 @@ Desde la terminal, navega hasta la carpeta en la que se desea clonar el reposito
 
 después clona el repositorio
 
- `git clone git@github.com:gwendysyd/Web-Scraping-Pokedex.git`
+ `git clone https://github.com/gwendysyd/Web-Scraping-Pokedex.git`
 
- cd  Web-Scraping-Pokedex-main
+navega hasta el directorio principal
 
- python main.py
+ `cd  Web-Scraping-Pokedex-main`
 
- El csv final se guardará en la carpeta output.
+ y ejecuta el archivo main.py
+ 
+ `python main.py`
+
+ El csv final con el resultado se guardará en la carpeta `output`.
 
 ## Recursos
 
