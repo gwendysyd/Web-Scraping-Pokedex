@@ -16,6 +16,17 @@ Nombres de los integrantes del equipo
 
 Enumerar y describir cada fichero del programa
 
-## Recuros
+## Instrucciones de uso
+
+### Clonar el repositorio
+Desde la terminal, navega hasta la carpeta en la que se desea clonar el repositorio
+
+`cd la_carpeta_elegida`
+
+después clona el repositorio
+
+ `git clone https://gitlabmaster.bo3.e-dialog.com/GDSA_P/product-level-forecasting-streamlit-app.git`
+
+## Recursos
 
 Añadir bibliografía
