@@ -1,0 +1,1 @@
+Esta carpeta es temporal para añadir Jupyter Notebooks, ya que son más fáciles de entender y de utilizar que los archivos .py
