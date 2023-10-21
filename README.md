@@ -19,7 +19,7 @@ Enumerar y describir cada fichero del programa
 ## Instrucciones de uso
 
 ### Environment
-Asegúrate de que tu environment cuenta con las librerías indicadas en el archivo requirements.txt
+Asegúrate de que tu environment cuenta con las librerías indicadas en el archivo `requirements.txt`
 
 ### Clonar el repositorio
 Desde la terminal, navega hasta la carpeta en la que se desea clonar el repositorio
