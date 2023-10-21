@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
+import os
 
 class PokemonScraper():
     def __init__(self, url="https://www.serebii.net/pokedex"):
