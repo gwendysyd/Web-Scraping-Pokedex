@@ -25,7 +25,7 @@ Desde la terminal, navega hasta la carpeta en la que se desea clonar el reposito
 
 después clona el repositorio
 
- `git clone https://gitlabmaster.bo3.e-dialog.com/GDSA_P/product-level-forecasting-streamlit-app.git`
+ `git clone git@github.com:gwendysyd/Web-Scraping-Pokedex.git`
 
 ## Recursos
 
