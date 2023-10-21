@@ -1,6 +1,8 @@
 # PRA1: Web Scraping
 
-![pokemon-1536847_1280](https://github.com/gwendysyd/Web-Scraping-Pokedex/assets/50579411/b5adc6d8-22bb-4afc-8963-fc7c72a90c7a)
+<div style="text-align:center">
+  <img src="https://cdn.pixabay.com/photo/2016/07/23/13/18/pokemon-1536847_1280.png" width="200" height="200">
+</div>
 
 ## Descripción
 
