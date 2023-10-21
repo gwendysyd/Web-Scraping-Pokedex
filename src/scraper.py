@@ -69,19 +69,19 @@ class PokemonScraper():
 
             self.pokemon_list.append(pokemon_dict)
             
-        def export_to_csv(self, filename="output/pokemon_data.csv"):
-            if not self.pokemon_list:
-                print("No data to export.")
-                return
+    def export_to_csv(self, filename="output/pokemon_data.csv"):
+        if not self.pokemon_list:
+            print("No data to export.")
+            return
 
-            # Crear df a partir de pokemon_list
-            df = pd.DataFrame(self.pokemon_list)
+        # Crear df a partir de pokemon_list
+        df = pd.DataFrame(self.pokemon_list)
 
-            # Crear directorio si no existe
-            directory = os.path.dirname(filename)
-            if not os.path.exists(directory):
-                os.makedirs(directory)
+        # Crear directorio si no existe
+        directory = os.path.dirname(filename)
+        if not os.path.exists(directory):
+            os.makedirs(directory)
 
-            # Exportar a formato csv
-            df.to_csv(filename, index=False)
-            print(f"Data exported to {filename}")
+        # Exportar a formato csv
+        df.to_csv(filename, index=False)
+        print(f"Data exported to {filename}")
