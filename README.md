@@ -1,6 +1,6 @@
 # PRA1: Web Scraping
 
-<div style="text-align:center">
+<div style="display: flex; justify-content: center;">
   <img src="https://cdn.pixabay.com/photo/2016/07/23/13/18/pokemon-1536847_1280.png" width="200" height="200">
 </div>
 
