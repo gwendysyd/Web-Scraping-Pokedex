@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import os
+import re
 
 class PokemonScraper():
     def __init__(self, url="https://www.serebii.net/pokedex-swsh"):
@@ -45,8 +46,23 @@ class PokemonScraper():
                     if index == 7: #me quedo con la que contiene los datos a buscar
                         columns = tr.find_all('td', class_='fooinfo')
                         classification = columns[0].get_text()
-                        height_m = columns[1].get_text().split('\n')[1].strip().replace("m", "")
-                        weight_kg = columns[2].get_text().split('\n')[1].strip().replace("kg", "")
+
+                        height_pattern = r'\d+\.\d+m'
+                        height_m = columns[1].get_text()
+                        try:
+                            height_m = re.findall(height_pattern, height_m)[0].replace("m", "")
+                        except: #si tiene un solo numero sin "."
+                             height_pattern = r'\d+m'
+                             height_m = re.findall(height_pattern, height_m)[0].replace("m", "")
+
+                        weight_pattern = r'\d+\.\d+kg'
+                        weight_kg = columns[2].get_text()
+                        try:
+                            weight_kg = re.findall(weight_pattern, weight_kg)[0].replace("kg", "")
+                        except: #si tiene un solo numero sin "."
+                            weight_pattern = r'\d+kg'
+                            weight_kg = re.findall(weight_pattern, weight_kg)[0].replace("kg", "")
+
                         capture_rate = columns[3].get_text()
 
                 pokemon_dict['Classification'] = classification
@@ -77,6 +93,8 @@ class PokemonScraper():
                 pokemon_dict['Sp. attack'] = special_attack_value
                 pokemon_dict['Sp. defense'] = special_defense_value
                 pokemon_dict['Speed'] = speed_value
+
+                #print(pokemon_dict)
 
                 self.pokemon_list.append(pokemon_dict)
             
