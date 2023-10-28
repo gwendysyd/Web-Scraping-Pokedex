@@ -18,12 +18,11 @@ class PokemonScraper():
 
         for select_element in select_elements:
             for option in select_element.find_all('option')[1:]:
+                # Obtener numero, nombre y url de cada Pokemon
                 number = option.get_text().split()[-2]
                 name = option.get_text().split()[-1]
                 url = option['value']
-
                 print(number, name)
-                # Obtener numero, nombre y url de cada Pokemon
                 pokemon_dict = {
                     'Number': number,
                     'Name': name,
