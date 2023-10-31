@@ -1,3 +1,4 @@
-beautifulsoup4==4.9.3
+pip install bs4==0.0.1 #el modulo bs4 esta acá probablemente hay que cambiar el import
+#beautifulsoup4==4.9.3 
 pandas==1.2.0
 requests==2.25.1

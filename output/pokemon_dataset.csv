@@ -1,152 +1,846 @@
-Number,Name,URL,Type,Classification,Height_m,Weight_kg,Capture_rate,HP,Attack,Defense,Special,Speed
-001,Bulbasaur,https://www.serebii.net/pokedex/001.shtml,"['grass', 'poison']",Seed Pokémon,0.7,6.9,45,45,49,49,65,45
-002,Ivysaur,https://www.serebii.net/pokedex/002.shtml,"['grass', 'poison']",Seed Pokémon,1,13,45,60,62,63,80,60
-003,Venusaur,https://www.serebii.net/pokedex/003.shtml,"['grass', 'poison']",Seed Pokémon,2,100,45,80,82,83,100,80
-004,Charmander,https://www.serebii.net/pokedex/004.shtml,['fire'],Lizard Pokémon,0.6,8.5,45,39,52,43,50,65
-005,Charmeleon,https://www.serebii.net/pokedex/005.shtml,['fire'],Flame Pokémon,1.1,19,45,58,64,58,65,80
-006,Charizard,https://www.serebii.net/pokedex/006.shtml,"['fire', 'flying']",Flame Pokémon,1.7,90.5,45,78,84,78,85,100
-007,Squirtle,https://www.serebii.net/pokedex/007.shtml,['water'],Tiny Turtle Pokémon,0.5,9,45,44,48,65,50,43
-008,Wartortle,https://www.serebii.net/pokedex/008.shtml,['water'],Turtle Pokémon,1,22.5,45,59,63,80,65,58
-009,Blastoise,https://www.serebii.net/pokedex/009.shtml,['water'],Shellfish Pokémon,1.6,85.5,45,79,83,100,85,78
-010,Caterpie,https://www.serebii.net/pokedex/010.shtml,['bug'],Worm Pokémon,0.3,2.9,255,45,30,35,20,45
-011,Metapod,https://www.serebii.net/pokedex/011.shtml,['bug'],Cocoon Pokémon,0.7,9.9,120,50,20,55,25,30
-012,Butterfree,https://www.serebii.net/pokedex/012.shtml,"['bug', 'flying']",Butterfly Pokémon,1.1,32,45,60,45,50,80,70
-013,Weedle,https://www.serebii.net/pokedex/013.shtml,"['bug', 'poison']",Hairy Bug Pokémon,0.3,3.2,255,40,35,30,20,50
-014,Kakuna,https://www.serebii.net/pokedex/014.shtml,"['bug', 'poison']",Cocoon Pokémon,0.6,10,120,45,25,50,25,35
-015,Beedrill,https://www.serebii.net/pokedex/015.shtml,"['bug', 'poison']",Poison Bee Pokémon,1,29.5,45,65,80,40,45,75
-016,Pidgey,https://www.serebii.net/pokedex/016.shtml,"['normal', 'flying']",Tiny Bird Pokémon,0.3,1.8,255,40,45,40,35,56
-017,Pidgeotto,https://www.serebii.net/pokedex/017.shtml,"['normal', 'flying']",Bird Pokémon,1.1,30,120,63,60,55,50,71
-018,Pidgeot,https://www.serebii.net/pokedex/018.shtml,"['normal', 'flying']",Bird Pokémon,1.5,39.5,45,83,80,75,70,91
-019,Rattata,https://www.serebii.net/pokedex/019.shtml,['normal'],Mouse Pokémon,0.3,3.5,255,30,56,35,25,72
-020,Raticate,https://www.serebii.net/pokedex/020.shtml,['normal'],Mouse Pokémon,0.7,18.5,127,55,81,60,50,97
-021,Spearow,https://www.serebii.net/pokedex/021.shtml,"['normal', 'flying']",Tiny Bird Pokémon,0.3,2,255,40,60,30,31,70
-022,Fearow,https://www.serebii.net/pokedex/022.shtml,"['normal', 'flying']",Beak Pokémon,1.2,38,90,65,90,65,61,100
-023,Ekans,https://www.serebii.net/pokedex/023.shtml,['poison'],Snake Pokémon,2,6.9,255,35,60,44,40,55
-024,Arbok,https://www.serebii.net/pokedex/024.shtml,['poison'],Cobra Pokémon,3.5,65,90,60,85,69,65,80
-025,Pikachu,https://www.serebii.net/pokedex/025.shtml,['electric'],Mouse Pokémon,0.4,6,190,35,55,30,50,90
-026,Raichu,https://www.serebii.net/pokedex/026.shtml,['electric'],Mouse Pokémon,0.8,30,75,60,90,55,90,100
-027,Sandshrew,https://www.serebii.net/pokedex/027.shtml,['ground'],Mouse Pokémon,0.6,12,255,50,75,85,30,40
-028,Sandslash,https://www.serebii.net/pokedex/028.shtml,['ground'],Mouse Pokémon,1,29.5,90,75,100,110,55,65
-029,Nidoran-F,https://www.serebii.net/pokedex/029.shtml,['poison'],Poison Pin Pokémon,0.4,7,235,55,47,52,40,41
-030,Nidorina,https://www.serebii.net/pokedex/030.shtml,['poison'],Poison Pin Pokémon,0.8,20,120,70,62,67,55,56
-031,Nidoqueen,https://www.serebii.net/pokedex/031.shtml,"['poison', 'ground']",Drill Pokémon,1.3,60,45,90,82,87,75,76
-032,Nidoran-M,https://www.serebii.net/pokedex/032.shtml,['poison'],Poison Pin Pokémon,0.5,9,235,46,57,40,40,50
-033,Nidorino,https://www.serebii.net/pokedex/033.shtml,['poison'],Poison Pin Pokémon,0.9,19.5,120,61,72,57,55,65
-034,Nidoking,https://www.serebii.net/pokedex/034.shtml,"['poison', 'ground']",Drill Pokémon,1.4,62,45,81,92,77,75,85
-035,Clefairy,https://www.serebii.net/pokedex/035.shtml,['normal'],Fairy Pokémon,0.6,7.5,150,70,45,48,60,35
-036,Clefable,https://www.serebii.net/pokedex/036.shtml,['normal'],Fairy Pokémon,1.3,40,25,95,70,73,85,60
-037,Vulpix,https://www.serebii.net/pokedex/037.shtml,['fire'],Fox Pokémon,0.6,9.9,190,38,41,40,65,65
-038,Ninetales,https://www.serebii.net/pokedex/038.shtml,['fire'],Fox Pokémon,1.1,19.9,75,73,76,75,100,100
-039,Jigglypuff,https://www.serebii.net/pokedex/039.shtml,['normal'],Balloon Pokémon,0.5,5.5,170,115,45,20,25,20
-040,Wigglytuff,https://www.serebii.net/pokedex/040.shtml,['normal'],Balloon Pokémon,1,12,50,140,70,45,50,45
-041,Zubat,https://www.serebii.net/pokedex/041.shtml,"['poison', 'flying']",Bat Pokémon,0.8,7.5,255,40,45,35,40,55
-042,Golbat,https://www.serebii.net/pokedex/042.shtml,"['poison', 'flying']",Bat Pokémon,1.6,55,90,75,80,70,75,90
-043,Oddish,https://www.serebii.net/pokedex/043.shtml,"['grass', 'poison']",Weed Pokémon,0.5,5.4,255,45,50,55,75,30
-044,Gloom,https://www.serebii.net/pokedex/044.shtml,"['grass', 'poison']",Weed Pokémon,0.8,8.6,120,60,65,70,85,40
-045,Vileplume,https://www.serebii.net/pokedex/045.shtml,"['grass', 'poison']",Flower Pokémon,1.2,18.6,45,75,80,85,100,50
-046,Paras,https://www.serebii.net/pokedex/046.shtml,"['bug', 'grass']",Mushroom Pokémon,0.3,5.4,190,35,70,55,55,25
-047,Parasect,https://www.serebii.net/pokedex/047.shtml,"['bug', 'grass']",Mushroom Pokémon,1,29.5,75,60,95,80,80,30
-048,Venonat,https://www.serebii.net/pokedex/048.shtml,"['bug', 'poison']",Insect Pokémon,1,30,190,60,55,50,40,45
-049,Venomoth,https://www.serebii.net/pokedex/049.shtml,"['bug', 'poison']",Poison Moth Pokémon,1.5,12.5,75,70,65,60,90,90
-050,Diglett,https://www.serebii.net/pokedex/050.shtml,['ground'],Mole Pokémon,0.2,0.8,255,10,55,25,45,95
-051,Dugtrio,https://www.serebii.net/pokedex/051.shtml,['ground'],Mole Pokémon,0.7,33.3,50,35,80,50,70,120
-052,Meowth,https://www.serebii.net/pokedex/052.shtml,['normal'],Scratch Cat Pokémon,0.4,4.2,255,40,45,35,40,90
-053,Persian,https://www.serebii.net/pokedex/053.shtml,['normal'],Classy Cat Pokémon,1,32,90,65,70,60,65,115
-054,Psyduck,https://www.serebii.net/pokedex/054.shtml,['water'],Duck Pokémon,0.8,19.6,190,50,52,48,50,55
-055,Golduck,https://www.serebii.net/pokedex/055.shtml,['water'],Duck Pokémon,1.7,76.6,75,80,82,78,80,85
-056,Mankey,https://www.serebii.net/pokedex/056.shtml,['fighting'],Pig Monkey Pokémon,0.5,28,190,40,80,35,35,70
-057,Primeape,https://www.serebii.net/pokedex/057.shtml,['fighting'],Pig Monkey Pokémon,1,32,75,65,105,60,60,95
-058,Growlithe,https://www.serebii.net/pokedex/058.shtml,['fire'],Puppy Pokémon,0.7,19,190,55,70,45,50,60
-059,Arcanine,https://www.serebii.net/pokedex/059.shtml,['fire'],Legendary Pokémon,1.9,155,75,90,110,80,80,95
-060,Poliwag,https://www.serebii.net/pokedex/060.shtml,['water'],Tadpole Pokémon,0.6,12.4,255,40,50,40,40,90
-061,Poliwhirl,https://www.serebii.net/pokedex/061.shtml,['water'],Tadpole Pokémon,1,20,120,65,65,65,50,90
-062,Poliwrath,https://www.serebii.net/pokedex/062.shtml,"['water', 'fighting']",Tadpole Pokémon,1.3,54,45,90,85,95,70,70
-063,Abra,https://www.serebii.net/pokedex/063.shtml,['psychic'],Psi Pokémon,0.9,19.5,200,25,20,15,105,90
-064,Kadabra,https://www.serebii.net/pokedex/064.shtml,['psychic'],Psi Pokémon,1.3,56.5,100,40,35,30,120,105
-065,Alakazam,https://www.serebii.net/pokedex/065.shtml,['psychic'],Psi Pokémon,1.5,48,50,55,50,45,135,120
-066,Machop,https://www.serebii.net/pokedex/066.shtml,['fighting'],Superpower Pokémon,0.8,19.5,180,70,80,50,35,35
-067,Machoke,https://www.serebii.net/pokedex/067.shtml,['fighting'],Superpower Pokémon,1.5,70.5,90,80,100,70,50,45
-068,Machamp,https://www.serebii.net/pokedex/068.shtml,['fighting'],Superpower Pokémon,1.6,130,45,90,130,80,65,55
-069,Bellsprout,https://www.serebii.net/pokedex/069.shtml,"['grass', 'poison']",Flower Pokémon,0.7,4,255,50,75,35,70,40
-070,Weepinbell,https://www.serebii.net/pokedex/070.shtml,"['grass', 'poison']",Flycatcher Pokémon,1,6.4,120,65,90,50,85,55
-071,Victreebel,https://www.serebii.net/pokedex/071.shtml,"['grass', 'poison']",Flycatcher Pokémon,1.7,15.5,45,80,105,65,100,70
-072,Tentacool,https://www.serebii.net/pokedex/072.shtml,"['water', 'poison']",Jellyfish Pokémon,0.9,45.5,190,40,40,35,100,70
-073,Tentacruel,https://www.serebii.net/pokedex/073.shtml,"['water', 'poison']",Jellyfish Pokémon,1.6,55,60,80,70,65,120,100
-074,Geodude,https://www.serebii.net/pokedex/074.shtml,"['rock', 'ground']",Rock Pokémon,0.4,20,255,40,80,100,30,20
-075,Graveler,https://www.serebii.net/pokedex/075.shtml,"['rock', 'ground']",Rock Pokémon,1,105,120,55,95,115,45,35
-076,Golem,https://www.serebii.net/pokedex/076.shtml,"['rock', 'ground']",Megaton Pokémon,1.4,300,45,80,110,130,55,45
-077,Ponyta,https://www.serebii.net/pokedex/077.shtml,['fire'],Fire Horse Pokémon,1,30,190,50,85,55,65,90
-078,Rapidash,https://www.serebii.net/pokedex/078.shtml,['fire'],Fire Horse Pokémon,1.7,95,60,65,100,70,80,105
-079,Slowpoke,https://www.serebii.net/pokedex/079.shtml,"['water', 'psychic']",Dopey Pokémon,1.2,36,190,90,65,65,40,15
-080,Slowbro,https://www.serebii.net/pokedex/080.shtml,"['water', 'psychic']",Hermit Crab Pokémon,1.6,78.5,75,95,75,110,80,30
-081,Magnemite,https://www.serebii.net/pokedex/081.shtml,['electric'],Magnet Pokémon,0.3,6,190,25,35,70,95,45
-082,Magneton,https://www.serebii.net/pokedex/082.shtml,['electric'],Magnet Pokémon,1,60,60,50,60,95,120,70
-083,Farfetch'd,https://www.serebii.net/pokedex/083.shtml,"['normal', 'flying']",Wild Duck Pokémon,0.8,15,45,52,65,55,58,60
-084,Doduo,https://www.serebii.net/pokedex/084.shtml,"['normal', 'flying']",Twin Bird Pokémon,1.4,39.2,190,35,85,45,35,75
-085,Dodrio,https://www.serebii.net/pokedex/085.shtml,"['normal', 'flying']",Triple Bird Pokémon,1.8,85.2,45,60,110,70,60,100
-086,Seel,https://www.serebii.net/pokedex/086.shtml,['water'],Sea Lion Pokémon,1.1,90,190,65,45,55,70,45
-087,Dewgong,https://www.serebii.net/pokedex/087.shtml,"['water', 'ice']",Sea Lion Pokémon,1.7,120,75,90,70,80,95,70
-088,Grimer,https://www.serebii.net/pokedex/088.shtml,['poison'],Sludge Pokémon,0.9,30,190,80,80,50,40,25
-089,Muk,https://www.serebii.net/pokedex/089.shtml,['poison'],Sludge Pokémon,1.2,30,75,105,105,75,65,50
-090,Shellder,https://www.serebii.net/pokedex/090.shtml,['water'],Bivalve Pokémon,0.3,4,190,30,65,100,45,40
-091,Cloyster,https://www.serebii.net/pokedex/091.shtml,"['water', 'ice']",Bivalve Pokémon,1.5,132.5,60,50,95,180,85,70
-092,Gastly,https://www.serebii.net/pokedex/092.shtml,"['ghost', 'poison']",Gas Pokémon,1.3,0.1,190,30,35,30,100,80
-093,Haunter,https://www.serebii.net/pokedex/093.shtml,"['ghost', 'poison']",Gas Pokémon,1.6,0.1,90,45,50,45,115,95
-094,Gengar,https://www.serebii.net/pokedex/094.shtml,"['ghost', 'poison']",Shadow Pokémon,1.5,40.5,45,60,65,60,130,110
-095,Onix,https://www.serebii.net/pokedex/095.shtml,"['rock', 'ground']",Rock Snake Pokémon,8.8,210,45,35,45,160,30,70
-096,Drowzee,https://www.serebii.net/pokedex/096.shtml,['psychic'],Hypnosis Pokémon,1,32.4,190,60,48,45,90,42
-097,Hypno,https://www.serebii.net/pokedex/097.shtml,['psychic'],Hypnosis Pokémon,1.6,75.6,75,85,73,70,115,67
-098,Krabby,https://www.serebii.net/pokedex/098.shtml,['water'],River Crab Pokémon,0.4,6.5,225,30,105,90,25,50
-099,Kingler,https://www.serebii.net/pokedex/099.shtml,['water'],Pincer Pokémon,1.3,60,60,55,130,115,50,75
-100,Voltorb,https://www.serebii.net/pokedex/100.shtml,['electric'],Ball Pokémon,0.5,10.4,190,40,30,50,55,100
-101,Electrode,https://www.serebii.net/pokedex/101.shtml,['electric'],Ball Pokémon,1.2,66.6,60,60,50,70,80,140
-102,Exeggcute,https://www.serebii.net/pokedex/102.shtml,"['grass', 'psychic']",Egg Pokémon,0.4,2.5,90,60,40,80,60,40
-103,Exeggutor,https://www.serebii.net/pokedex/103.shtml,"['grass', 'psychic']",Coconut Pokémon,2,120,45,95,95,85,125,55
-104,Cubone,https://www.serebii.net/pokedex/104.shtml,['ground'],Lonely Pokémon,0.4,6.5,190,50,50,95,40,35
-105,Marowak,https://www.serebii.net/pokedex/105.shtml,['ground'],Bone Keeper Pokémon,1,45,75,60,80,110,50,45
-106,Hitmonlee,https://www.serebii.net/pokedex/106.shtml,['fighting'],Kicking Pokémon,1.5,49.8,45,50,120,53,35,87
-107,Hitmonchan,https://www.serebii.net/pokedex/107.shtml,['fighting'],Punching Pokémon,1.4,50.2,45,50,105,79,35,76
-108,Lickitung,https://www.serebii.net/pokedex/108.shtml,['normal'],Licking Pokémon,1.2,65.5,45,90,55,75,60,30
-109,Koffing,https://www.serebii.net/pokedex/109.shtml,['poison'],Poison Gas Pokémon,0.6,1,190,40,65,95,60,35
-110,Weezing,https://www.serebii.net/pokedex/110.shtml,['poison'],Poison Gas Pokémon,1.2,9.5,60,65,90,120,85,60
-111,Rhyhorn,https://www.serebii.net/pokedex/111.shtml,"['ground', 'rock']",Spikes Pokémon,1,115,120,80,85,95,30,25
-112,Rhydon,https://www.serebii.net/pokedex/112.shtml,"['ground', 'rock']",Drill Pokémon,1.9,120,60,105,130,120,45,40
-113,Chansey,https://www.serebii.net/pokedex/113.shtml,['normal'],Egg Pokémon,1.1,34.6,30,250,5,5,105,50
-114,Tangela,https://www.serebii.net/pokedex/114.shtml,['grass'],Vine Pokémon,1,35,45,65,55,115,100,60
-115,Kangaskhan,https://www.serebii.net/pokedex/115.shtml,['normal'],Parent Pokémon,2.2,80,45,105,95,80,40,90
-116,Horsea,https://www.serebii.net/pokedex/116.shtml,['water'],Dragon Pokémon,0.4,8,225,30,40,70,70,60
-117,Seadra,https://www.serebii.net/pokedex/117.shtml,['water'],Dragon Pokémon,1.2,25,75,55,65,95,95,85
-118,Goldeen,https://www.serebii.net/pokedex/118.shtml,['water'],Goldfish Pokémon,0.6,15,225,45,67,60,50,63
-119,Seaking,https://www.serebii.net/pokedex/119.shtml,['water'],Goldfish Pokémon,1.3,39,60,80,92,65,80,68
-120,Staryu,https://www.serebii.net/pokedex/120.shtml,['water'],Starshape Pokémon,0.8,34.5,225,30,45,55,70,85
-121,Starmie,https://www.serebii.net/pokedex/121.shtml,"['water', 'psychic']",Mysterious Pokémon,1.1,80,60,60,75,85,100,115
-122,Mr.Mime,https://www.serebii.net/pokedex/122.shtml,['psychic'],Barrier Pokémon,1.3,54.5,45,40,45,65,100,90
-123,Scyther,https://www.serebii.net/pokedex/123.shtml,"['bug', 'flying']",Mantis Pokémon,1.5,56,45,70,110,80,55,105
-124,Jynx,https://www.serebii.net/pokedex/124.shtml,"['ice', 'psychic']",Humanshape Pokémon,1.4,40.6,45,65,50,35,95,95
-125,Electabuzz,https://www.serebii.net/pokedex/125.shtml,['electric'],Electric Pokémon,1.1,30,45,65,83,57,85,105
-126,Magmar,https://www.serebii.net/pokedex/126.shtml,['fire'],Spitfire Pokémon,1.3,44.5,45,65,95,57,85,93
-127,Pinsir,https://www.serebii.net/pokedex/127.shtml,['bug'],Stagbeetle Pokémon,1.5,55,45,65,125,100,55,85
-128,Tauros,https://www.serebii.net/pokedex/128.shtml,['normal'],Wild Bull Pokémon,1.4,88.4,45,75,100,95,70,110
-129,Magikarp,https://www.serebii.net/pokedex/129.shtml,['water'],Fish Pokémon,0.9,10,255,20,10,55,20,80
-130,Gyarados,https://www.serebii.net/pokedex/130.shtml,"['water', 'flying']",Atrocious Pokémon,6.5,235,45,95,125,79,100,81
-131,Lapras,https://www.serebii.net/pokedex/131.shtml,"['water', 'ice']",Transport Pokémon,2.5,220,45,130,85,80,95,60
-132,Ditto,https://www.serebii.net/pokedex/132.shtml,['normal'],Transform Pokémon,0.3,4,35,48,48,48,48,48
-133,Eevee,https://www.serebii.net/pokedex/133.shtml,['normal'],Evolution Pokémon,0.3,6.5,45,55,55,50,65,55
-134,Vaporeon,https://www.serebii.net/pokedex/134.shtml,['water'],Bubble Jet Pokémon,1,29,45,130,65,60,110,65
-135,Jolteon,https://www.serebii.net/pokedex/135.shtml,['electric'],Lightning Pokémon,0.8,24.5,45,65,65,60,110,130
-136,Flareon,https://www.serebii.net/pokedex/136.shtml,['fire'],Flame Pokémon,0.9,25,45,65,130,60,110,65
-137,Porygon,https://www.serebii.net/pokedex/137.shtml,['normal'],Virtual Pokémon,0.8,36.5,45,65,60,70,75,40
-138,Omanyte,https://www.serebii.net/pokedex/138.shtml,"['rock', 'water']",Spiral Pokémon,0.4,7.5,45,35,40,100,90,35
-139,Omastar,https://www.serebii.net/pokedex/139.shtml,"['rock', 'water']",Spiral Pokémon,1,35,45,70,60,125,115,55
-140,Kabuto,https://www.serebii.net/pokedex/140.shtml,"['rock', 'water']",Shellfish Pokémon,0.5,11.5,45,30,80,90,45,55
-141,Kabutops,https://www.serebii.net/pokedex/141.shtml,"['rock', 'water']",Shellfish Pokémon,1.3,40.5,45,60,115,105,70,80
-142,Aerodactyl,https://www.serebii.net/pokedex/142.shtml,"['rock', 'flying']",Fossil Pokémon,1.8,59,45,80,105,65,60,130
-143,Snorlax,https://www.serebii.net/pokedex/143.shtml,['normal'],Sleeping Pokémon,2.1,460,25,160,110,65,65,30
-144,Articuno,https://www.serebii.net/pokedex/144.shtml,"['ice', 'flying']",Freeze Pokémon,1.7,55.4,3,90,85,100,125,85
-145,Zapdos,https://www.serebii.net/pokedex/145.shtml,"['electric', 'flying']",Electric Pokémon,1.6,52.6,3,90,90,85,125,100
-146,Moltres,https://www.serebii.net/pokedex/146.shtml,"['fire', 'flying']",Flame Pokémon,2,60,3,90,100,90,125,90
-147,Dratini,https://www.serebii.net/pokedex/147.shtml,['dragon'],Dragon Pokémon,1.8,3.3,45,41,64,45,50,50
-148,Dragonair,https://www.serebii.net/pokedex/148.shtml,['dragon'],Dragon Pokémon,4,16.5,45 (RB)27 (Y),61,84,65,70,70
-149,Dragonite,https://www.serebii.net/pokedex/149.shtml,"['dragon', 'flying']",Dragon Pokémon,2.2,210,45 (RB)9 (Y),91,134,95,100,80
-150,Mewtwo,https://www.serebii.net/pokedex/150.shtml,['psychic'],Genetic Pokémon,2,122,3,106,110,90,154,130
-151,Mew,https://www.serebii.net/pokedex/151.shtml,['psychic'],New Species Pokémon,0.4,4,45,100,100,100,100,100
+Number,Name,URL,Type,Classification,Height_m,Weight_kg,Capture_rate,HP,Attack,Defense,Sp. attack,Sp. defense,Speed
+001,Bulbasaur,https://www.serebii.net/pokedex-swsh/bulbasaur/,"['grass', 'poison']",Seed Pokémon,0.7,6.9,45,45,49,49,65,65,45
+002,Ivysaur,https://www.serebii.net/pokedex-swsh/ivysaur/,"['grass', 'poison']",Seed Pokémon,1.0,13.0,45,60,62,63,80,80,60
+003,Venusaur,https://www.serebii.net/pokedex-swsh/venusaur/,"['grass', 'poison']",Seed Pokémon,2.0,100.0,45,80,82,83,100,100,80
+004,Charmander,https://www.serebii.net/pokedex-swsh/charmander/,['fire'],Lizard Pokémon,0.6,8.5,45,39,52,43,60,50,65
+005,Charmeleon,https://www.serebii.net/pokedex-swsh/charmeleon/,['fire'],Flame Pokémon,1.1,19.0,45,58,64,58,80,65,80
+006,Charizard,https://www.serebii.net/pokedex-swsh/charizard/,"['fire', 'flying']",Flame Pokémon,1.7,90.5,45,78,84,78,109,85,100
+007,Squirtle,https://www.serebii.net/pokedex-swsh/squirtle/,['water'],Tiny Turtle Pokémon,0.5,9.0,45,44,48,65,50,64,43
+008,Wartortle,https://www.serebii.net/pokedex-swsh/wartortle/,['water'],Turtle Pokémon,1.0,22.5,45,59,63,80,65,80,58
+009,Blastoise,https://www.serebii.net/pokedex-swsh/blastoise/,['water'],Shellfish Pokémon,1.6,85.5,45,79,83,100,85,105,78
+010,Caterpie,https://www.serebii.net/pokedex-swsh/caterpie/,['bug'],Worm Pokémon,0.3,2.9,255,45,30,35,20,20,45
+011,Metapod,https://www.serebii.net/pokedex-swsh/metapod/,['bug'],Cocoon Pokémon,0.7,9.9,120,50,20,55,25,25,30
+012,Butterfree,https://www.serebii.net/pokedex-swsh/butterfree/,"['bug', 'flying']",Butterfly Pokémon,1.1,32.0,45,60,45,50,90,80,70
+013,Weedle,https://www.serebii.net/pokedex-swsh/weedle/,"['bug', 'poison']",Hairy Bug Pokémon,0.3,3.2,255,40,35,30,20,20,50
+014,Kakuna,https://www.serebii.net/pokedex-swsh/kakuna/,"['bug', 'poison']",Cocoon Pokémon,0.6,10,120,45,25,50,25,25,35
+015,Beedrill,https://www.serebii.net/pokedex-swsh/beedrill/,"['bug', 'poison']",Poison Bee Pokémon,1,29.5,45,65,90,40,45,80,75
+016,Pidgey,https://www.serebii.net/pokedex-swsh/pidgey/,"['normal', 'flying']",Tiny Bird Pokémon,0.3,1.8,255,40,45,40,35,35,56
+017,Pidgeotto,https://www.serebii.net/pokedex-swsh/pidgeotto/,"['normal', 'flying']",Bird Pokémon,1.1,30,120,63,60,55,50,50,71
+018,Pidgeot,https://www.serebii.net/pokedex-swsh/pidgeot/,"['normal', 'flying']",Bird Pokémon,1.5,39.5,45,83,80,75,70,70,101
+019,Rattata,https://www.serebii.net/pokedex-swsh/rattata/,['normal'],Mouse Pokémon,0.3,3.5,255,30,56,35,25,35,72
+020,Raticate,https://www.serebii.net/pokedex-swsh/raticate/,['normal'],Mouse Pokémon,0.7,18.5,127,55,81,60,50,70,97
+021,Spearow,https://www.serebii.net/pokedex-swsh/spearow/,"['normal', 'flying']",Tiny Bird Pokémon,0.3,2,255,40,60,30,31,31,70
+022,Fearow,https://www.serebii.net/pokedex-swsh/fearow/,"['normal', 'flying']",Beak Pokémon,1.2,38,90,65,90,65,61,61,100
+023,Ekans,https://www.serebii.net/pokedex-swsh/ekans/,['poison'],Snake Pokémon,2,6.9,255,35,60,44,40,54,55
+024,Arbok,https://www.serebii.net/pokedex-swsh/arbok/,['poison'],Cobra Pokémon,3.5,65,90,60,95,69,65,79,80
+025,Pikachu,https://www.serebii.net/pokedex-swsh/pikachu/,['electric'],Mouse Pokémon,0.4,6.0,190Legends145,35,55,40,50,50,90
+026,Raichu,https://www.serebii.net/pokedex-swsh/raichu/,"['electric', 'electric', 'psychic']",Mouse Pokémon,0.8,30.0,75Legends95,60,90,55,90,80,110
+027,Sandshrew,https://www.serebii.net/pokedex-swsh/sandshrew/,"['ground', 'ice', 'steel']",Mouse Pokémon,0.6,12.0,255,50,75,85,20,30,40
+028,Sandslash,https://www.serebii.net/pokedex-swsh/sandslash/,"['ground', 'ice', 'steel']",Mouse Pokémon,1.0,29.5,90,75,100,110,45,55,65
+029,Nidoran♀,https://www.serebii.net/pokedex-swsh/nidoranf/,['poison'],Poison Pin Pokémon,0.4,7.0,235,55,47,52,40,40,41
+030,Nidorina,https://www.serebii.net/pokedex-swsh/nidorina/,['poison'],Poison Pin Pokémon,0.8,20.0,120,70,62,67,55,55,56
+031,Nidoqueen,https://www.serebii.net/pokedex-swsh/nidoqueen/,"['poison', 'ground']",Drill Pokémon,1.3,60.0,45,90,92,87,75,85,76
+032,Nidoran♂,https://www.serebii.net/pokedex-swsh/nidoranm/,['poison'],Poison Pin Pokémon,0.5,9.0,235,46,57,40,40,40,50
+033,Nidorino,https://www.serebii.net/pokedex-swsh/nidorino/,['poison'],Poison Pin Pokémon,0.9,19.5,120,61,72,57,55,55,65
+034,Nidoking,https://www.serebii.net/pokedex-swsh/nidoking/,"['poison', 'ground']",Drill Pokémon,1.4,62.0,45,81,102,77,85,75,85
+035,Clefairy,https://www.serebii.net/pokedex-swsh/clefairy/,['fairy'],Fairy Pokémon,0.6,7.5,150Legends125,70,45,48,60,65,35
+036,Clefable,https://www.serebii.net/pokedex-swsh/clefable/,['fairy'],Fairy Pokémon,1.3,40.0,25Legends75,95,70,73,95,90,60
+037,Vulpix,https://www.serebii.net/pokedex-swsh/vulpix/,"['fire', 'ice']",Fox Pokémon,0.6,9.9,190Legends235,38,41,40,50,65,65
+038,Ninetales,https://www.serebii.net/pokedex-swsh/ninetales/,"['fire', 'ice', 'fairy']",Fox Pokémon,1.1,19.9,75Legends135,73,76,75,81,100,100
+039,Jigglypuff,https://www.serebii.net/pokedex-swsh/jigglypuff/,"['normal', 'fairy']",Balloon Pokémon,0.5,5.5,170,115,45,20,45,25,20
+040,Wigglytuff,https://www.serebii.net/pokedex-swsh/wigglytuff/,"['normal', 'fairy']",Balloon Pokémon,1.0,12.0,50,140,70,45,85,50,45
+041,Zubat,https://www.serebii.net/pokedex-swsh/zubat/,"['poison', 'flying']",Bat Pokémon,0.8,7.5,255Legends245,40,45,35,30,40,55
+042,Golbat,https://www.serebii.net/pokedex-swsh/golbat/,"['poison', 'flying']",Bat Pokémon,1.6,55.0,90Legends145,75,80,70,65,75,90
+043,Oddish,https://www.serebii.net/pokedex-swsh/oddish/,"['grass', 'poison']",Weed Pokémon,0.5,5.4,255,45,50,55,75,65,30
+044,Gloom,https://www.serebii.net/pokedex-swsh/gloom/,"['grass', 'poison']",Weed Pokémon,0.8,8.6,120,60,65,70,85,75,40
+045,Vileplume,https://www.serebii.net/pokedex-swsh/vileplume/,"['grass', 'poison']",Flower Pokémon,1.2,18.6,45,75,80,85,110,90,50
+046,Paras,https://www.serebii.net/pokedex-swsh/paras/,"['bug', 'grass']",Mushroom Pokémon,0.3,5.4,190Legends235,35,70,55,45,55,25
+047,Parasect,https://www.serebii.net/pokedex-swsh/parasect/,"['bug', 'grass']",Mushroom Pokémon,0.8,29.5,75Legends135,60,95,80,60,80,30
+048,Venonat,https://www.serebii.net/pokedex-swsh/venonat/,"['bug', 'poison']",Insect Pokémon,1,30,190,60,55,50,40,55,45
+049,Venomoth,https://www.serebii.net/pokedex-swsh/venomoth/,"['bug', 'poison']",Poison Moth Pokémon,1.5,12.5,75,70,65,60,90,75,90
+050,Diglett,https://www.serebii.net/pokedex-swsh/diglett/,"['ground', 'ground', 'steel']",Mole Pokémon,0.2,0.8,255,10,55,25,35,45,95
+051,Dugtrio,https://www.serebii.net/pokedex-swsh/dugtrio/,"['ground', 'ground', 'steel']",Mole Pokémon,0.7,33.3,50,35,100,50,50,70,120
+052,Meowth,https://www.serebii.net/pokedex-swsh/meowth/,"['normal', 'dark', 'steel']",Scratch Cat Pokémon,0.4,4.2,255,40,45,35,40,40,90
+053,Persian,https://www.serebii.net/pokedex-swsh/persian/,"['normal', 'dark']",Classy Cat Pokémon,1.0,32.0,90,65,70,60,65,65,115
+054,Psyduck,https://www.serebii.net/pokedex-swsh/psyduck/,['water'],Duck Pokémon,0.8,19.6,190Legends235,50,52,48,65,50,55
+055,Golduck,https://www.serebii.net/pokedex-swsh/golduck/,['water'],Duck Pokémon,1.7,76.6,75Legends135,80,82,78,95,80,85
+056,Mankey,https://www.serebii.net/pokedex-swsh/mankey/,['fighting'],Pig Monkey Pokémon,0.5,28,190,40,80,35,35,45,70
+057,Primeape,https://www.serebii.net/pokedex-swsh/primeape/,['fighting'],Pig Monkey Pokémon,1,32,75,65,105,60,60,70,95
+058,Growlithe,https://www.serebii.net/pokedex-swsh/growlithe/,"['fire', 'fire', 'rock']",Puppy Pokémon (Kantonian)Scout Pokémon (Hisuian),0.7,19.0,190Legends235,55,70,45,70,50,60
+059,Arcanine,https://www.serebii.net/pokedex-swsh/arcanine/,"['fire', 'fire', 'rock']",Legendary Pokémon,1.9,155.0,75Legends135,90,110,80,100,80,95
+060,Poliwag,https://www.serebii.net/pokedex-swsh/poliwag/,['water'],Tadpole Pokémon,0.6,12.4,255,40,50,40,40,40,90
+061,Poliwhirl,https://www.serebii.net/pokedex-swsh/poliwhirl/,['water'],Tadpole Pokémon,1.0,20.0,120,65,65,65,50,50,90
+062,Poliwrath,https://www.serebii.net/pokedex-swsh/poliwrath/,"['water', 'fighting']",Tadpole Pokémon,1.3,54.0,45,90,95,95,70,90,70
+063,Abra,https://www.serebii.net/pokedex-swsh/abra/,['psychic'],Psi Pokémon,0.9,19.5,200Legends205,25,20,15,105,55,90
+064,Kadabra,https://www.serebii.net/pokedex-swsh/kadabra/,['psychic'],Psi Pokémon,1.3,56.5,100Legends145,40,35,30,120,70,105
+065,Alakazam,https://www.serebii.net/pokedex-swsh/alakazam/,['psychic'],Psi Pokémon,1.5,48.0,50Legends95,55,50,45,135,95,120
+066,Machop,https://www.serebii.net/pokedex-swsh/machop/,['fighting'],Superpower Pokémon,0.8,19.5,180Legends245,70,80,50,35,35,35
+067,Machoke,https://www.serebii.net/pokedex-swsh/machoke/,['fighting'],Superpower Pokémon,1.5,70.5,90Legends145,80,100,70,50,60,45
+068,Machamp,https://www.serebii.net/pokedex-swsh/machamp/,['fighting'],Superpower Pokémon,1.6,130.0,45Legends95,90,130,80,65,85,55
+069,Bellsprout,https://www.serebii.net/pokedex-swsh/bellsprout/,"['grass', 'poison']",Flower Pokémon,0.7,4,255,50,75,35,70,30,40
+070,Weepinbell,https://www.serebii.net/pokedex-swsh/weepinbell/,"['grass', 'poison']",Flycatcher Pokémon,1,6.4,120,65,90,50,85,45,55
+071,Victreebel,https://www.serebii.net/pokedex-swsh/victreebel/,"['grass', 'poison']",Flycatcher Pokémon,1.7,15.5,45,80,105,65,100,70,70
+072,Tentacool,https://www.serebii.net/pokedex-swsh/tentacool/,"['water', 'poison']",Jellyfish Pokémon,0.9,45.5,190Legends235,40,40,35,50,100,70
+073,Tentacruel,https://www.serebii.net/pokedex-swsh/tentacruel/,"['water', 'poison']",Jellyfish Pokémon,1.6,55.0,60Legends135,80,70,65,80,120,100
+074,Geodude,https://www.serebii.net/pokedex-swsh/geodude/,"['rock', 'ground']",Rock Pokémon,0.4,12.8,255Legends245,40,80,100,30,30,20
+075,Graveler,https://www.serebii.net/pokedex-swsh/graveler/,"['rock', 'ground']",Rock Pokémon,0.8,67.2,120Legends145,55,95,115,45,45,35
+076,Golem,https://www.serebii.net/pokedex-swsh/golem/,"['rock', 'ground']",Megaton Pokémon,1.4,300,45Legends95,80,120,130,55,65,45
+077,Ponyta,https://www.serebii.net/pokedex-swsh/ponyta/,"['fire', 'psychic']",Fire Horse Pokémon (Kantonian)Unique Horn Pokémon (Galarian),1.0,30.0,190Legends235,50,85,55,65,65,90
+078,Rapidash,https://www.serebii.net/pokedex-swsh/rapidash/,"['fire', 'psychic', 'fairy']",Fire Horse Pokémon (Kantonian)Unique Horn Pokémon (Galarian),1.7,95.0,60Legends135,65,100,70,80,80,105
+079,Slowpoke,https://www.serebii.net/pokedex-swsh/slowpoke/,"['water', 'psychic', 'psychic']",Dopey Pokémon,1.2,36.0,190,90,65,65,40,40,15
+080,Slowbro,https://www.serebii.net/pokedex-swsh/slowbro/,"['water', 'psychic', 'poison', 'psychic']",Hermit Crab Pokémon,1.6,78.5,75,95,75,110,100,80,30
+081,Magnemite,https://www.serebii.net/pokedex-swsh/magnemite/,"['electric', 'steel']",Magnet Pokémon,0.3,6.0,190Legends225,25,35,70,95,55,45
+082,Magneton,https://www.serebii.net/pokedex-swsh/magneton/,"['electric', 'steel']",Magnet Pokémon,1.0,60.0,60Legends125,50,60,95,120,70,70
+083,Farfetch'd,https://www.serebii.net/pokedex-swsh/farfetch'd/,"['normal', 'flying', 'fighting']",Wild Duck Pokémon,0.8,15.0,45,52,90,55,58,62,60
+084,Doduo,https://www.serebii.net/pokedex-swsh/doduo/,"['normal', 'flying']",Twin Bird Pokémon,1.4,39.2,190,35,85,45,35,35,75
+085,Dodrio,https://www.serebii.net/pokedex-swsh/dodrio/,"['normal', 'flying']",Triple Bird Pokémon,1.8,85.2,45,60,110,70,60,60,110
+086,Seel,https://www.serebii.net/pokedex-swsh/seel/,['water'],Sea Lion Pokémon,1.1,90,190,65,45,55,45,70,45
+087,Dewgong,https://www.serebii.net/pokedex-swsh/dewgong/,"['water', 'ice']",Sea Lion Pokémon,1.7,120,75,90,70,80,70,95,70
+088,Grimer,https://www.serebii.net/pokedex-swsh/grimer/,['poison'],Sludge Pokémon,0.9,30,190,80,80,50,40,50,25
+089,Muk,https://www.serebii.net/pokedex-swsh/muk/,['poison'],Sludge Pokémon,1.2,30,75,105,105,75,65,100,50
+090,Shellder,https://www.serebii.net/pokedex-swsh/shellder/,['water'],Bivalve Pokémon,0.3,4.0,190,30,65,100,45,25,40
+091,Cloyster,https://www.serebii.net/pokedex-swsh/cloyster/,"['water', 'ice']",Bivalve Pokémon,1.5,132.5,60,50,95,180,85,45,70
+092,Gastly,https://www.serebii.net/pokedex-swsh/gastly/,"['ghost', 'poison']",Gas Pokémon,1.3,0.1,190Legends245,30,35,30,100,35,80
+093,Haunter,https://www.serebii.net/pokedex-swsh/haunter/,"['ghost', 'poison']",Gas Pokémon,1.6,0.1,90Legends145,45,50,45,115,55,95
+094,Gengar,https://www.serebii.net/pokedex-swsh/gengar/,"['ghost', 'poison']",Shadow Pokémon,1.5,40.5,45Legends95,60,65,60,130,75,110
+095,Onix,https://www.serebii.net/pokedex-swsh/onix/,"['rock', 'ground']",Rock Snake Pokémon,8.8,210.0,45Legends235,35,45,160,30,45,70
+096,Drowzee,https://www.serebii.net/pokedex-swsh/drowzee/,['psychic'],Hypnosis Pokémon,1,32.4,190,60,48,45,43,90,42
+097,Hypno,https://www.serebii.net/pokedex-swsh/hypno/,['psychic'],Hypnosis Pokémon,1.6,75.6,75,85,73,70,73,115,67
+098,Krabby,https://www.serebii.net/pokedex-swsh/krabby/,['water'],River Crab Pokémon,0.4,6.5,225,30,105,90,25,25,50
+099,Kingler,https://www.serebii.net/pokedex-swsh/kingler/,['water'],Pincer Pokémon,1.3,60.0,60,55,130,115,50,50,75
+100,Voltorb,https://www.serebii.net/pokedex-swsh/voltorb/,"['electric', 'electric', 'grass']",Ball Pokémon (Kantonian)Sphere Pokémon (Hisuian),0.5,10.4,190Legends235,40,30,50,55,55,100
+101,Electrode,https://www.serebii.net/pokedex-swsh/electrode/,"['electric', 'electric', 'grass']",Ball Pokémon (Kantonian)Sphere Pokémon (Hisuian),1.2,66.6,60Legends135,60,50,70,80,80,150
+102,Exeggcute,https://www.serebii.net/pokedex-swsh/exeggcute/,"['grass', 'psychic']",Egg Pokémon,0.4,2.5,90,60,40,80,60,45,40
+103,Exeggutor,https://www.serebii.net/pokedex-swsh/exeggutor/,"['grass', 'psychic', 'grass', 'dragon']",Coconut Pokémon,2.0,120.0,45,95,95,85,125,75,55
+104,Cubone,https://www.serebii.net/pokedex-swsh/cubone/,['ground'],Lonely Pokémon,0.4,6.5,190,50,50,95,40,50,35
+105,Marowak,https://www.serebii.net/pokedex-swsh/marowak/,"['ground', 'fire', 'ghost']",Bone Keeper Pokémon,1.0,45.0,75,60,80,110,50,80,45
+106,Hitmonlee,https://www.serebii.net/pokedex-swsh/hitmonlee/,['fighting'],Kicking Pokémon,1.5,49.8,45,50,120,53,35,110,87
+107,Hitmonchan,https://www.serebii.net/pokedex-swsh/hitmonchan/,['fighting'],Punching Pokémon,1.4,50.2,45,50,105,79,35,110,76
+108,Lickitung,https://www.serebii.net/pokedex-swsh/lickitung/,['normal'],Licking Pokémon,1.2,65.5,45Legends235,90,55,75,60,75,30
+109,Koffing,https://www.serebii.net/pokedex-swsh/koffing/,['poison'],Poison Gas Pokémon,0.6,1.0,190,40,65,95,60,45,35
+110,Weezing,https://www.serebii.net/pokedex-swsh/weezing/,"['poison', 'poison', 'fairy']",Poison Gas Pokémon,1.2,9.5,60,65,90,120,85,70,60
+111,Rhyhorn,https://www.serebii.net/pokedex-swsh/rhyhorn/,"['ground', 'rock']",Spikes Pokémon,1.0,115.0,120Legends225,80,85,95,30,30,25
+112,Rhydon,https://www.serebii.net/pokedex-swsh/rhydon/,"['ground', 'rock']",Drill Pokémon,1.9,120.0,60Legends125,105,130,120,45,45,40
+113,Chansey,https://www.serebii.net/pokedex-swsh/chansey/,['normal'],Egg Pokémon,1.1,34.6,30Legends105,250,5,5,35,105,50
+114,Tangela,https://www.serebii.net/pokedex-swsh/tangela/,['grass'],Vine Pokémon,1.0,35.0,45Legends235,65,55,115,100,40,60
+115,Kangaskhan,https://www.serebii.net/pokedex-swsh/kangaskhan/,['normal'],Parent Pokémon,2.2,80.0,45,105,95,80,40,80,90
+116,Horsea,https://www.serebii.net/pokedex-swsh/horsea/,['water'],Dragon Pokémon,0.4,8.0,225,30,40,70,70,25,60
+117,Seadra,https://www.serebii.net/pokedex-swsh/seadra/,['water'],Dragon Pokémon,1.2,25.0,75,55,65,95,95,45,85
+118,Goldeen,https://www.serebii.net/pokedex-swsh/goldeen/,['water'],Goldfish Pokémon,0.6,15.0,225,45,67,60,35,50,63
+119,Seaking,https://www.serebii.net/pokedex-swsh/seaking/,['water'],Goldfish Pokémon,1.3,39.0,60,80,92,65,65,80,68
+120,Staryu,https://www.serebii.net/pokedex-swsh/staryu/,['water'],Starshape Pokémon,0.8,34.5,225,30,45,55,70,55,85
+121,Starmie,https://www.serebii.net/pokedex-swsh/starmie/,"['water', 'psychic']",Mysterious Pokémon,1.1,80.0,60,60,75,85,100,85,115
+Mr.,Mime,https://www.serebii.net/pokedex-swsh/mr.mime/,"['psychic', 'fairy', 'ice', 'psychic']",Barrier Pokémon (Kantonian)Dancing Pokémon (Galarian),1.3,54.5,45Legends135,40,45,65,100,120,90
+123,Scyther,https://www.serebii.net/pokedex-swsh/scyther/,"['bug', 'flying']",Mantis Pokémon,1.5,56.0,45Legends215,70,110,80,55,80,105
+124,Jynx,https://www.serebii.net/pokedex-swsh/jynx/,"['ice', 'psychic']",Humanshape Pokémon,1.4,40.6,45,65,50,35,115,95,95
+125,Electabuzz,https://www.serebii.net/pokedex-swsh/electabuzz/,['electric'],Electric Pokémon,1.1,30.0,45Legends125,65,83,57,95,85,105
+126,Magmar,https://www.serebii.net/pokedex-swsh/magmar/,['fire'],Spitfire Pokémon,1.3,44.5,45Legends125,65,95,57,100,85,93
+127,Pinsir,https://www.serebii.net/pokedex-swsh/pinsir/,['bug'],Stagbeetle Pokémon,1.5,55.0,45,65,125,100,55,70,85
+128,Tauros,https://www.serebii.net/pokedex-swsh/tauros/,['normal'],Wild Bull Pokémon,1.4,88.4,45,75,100,95,40,70,110
+129,Magikarp,https://www.serebii.net/pokedex-swsh/magikarp/,['water'],Fish Pokémon,0.9,10.0,255,20,10,55,15,20,80
+130,Gyarados,https://www.serebii.net/pokedex-swsh/gyarados/,"['water', 'flying']",Atrocious Pokémon,6.5,235.0,45Legends55,95,125,79,60,100,81
+131,Lapras,https://www.serebii.net/pokedex-swsh/lapras/,"['water', 'ice']",Transport Pokémon,2.5,220.0,45,130,85,80,85,95,60
+132,Ditto,https://www.serebii.net/pokedex-swsh/ditto/,['normal'],Transform Pokémon,0.3,4.0,35,48,48,48,48,48,48
+133,Eevee,https://www.serebii.net/pokedex-swsh/eevee/,['normal'],Evolution Pokémon,0.3,6.5,45Legends215,55,55,50,45,65,55
+134,Vaporeon,https://www.serebii.net/pokedex-swsh/vaporeon/,['water'],Bubble Jet Pokémon,1.0,29.0,45Legends115,130,65,60,110,95,65
+135,Jolteon,https://www.serebii.net/pokedex-swsh/jolteon/,['electric'],Lightning Pokémon,0.8,24.5,45Legends115,65,65,60,110,95,130
+136,Flareon,https://www.serebii.net/pokedex-swsh/flareon/,['fire'],Flame Pokémon,0.9,25.0,45Legends115,65,130,60,95,110,65
+137,Porygon,https://www.serebii.net/pokedex-swsh/porygon/,['normal'],Virtual Pokémon,0.8,36.5,45Legends205,65,60,70,85,75,40
+138,Omanyte,https://www.serebii.net/pokedex-swsh/omanyte/,"['rock', 'water']",Spiral Pokémon,0.4,7.5,45,35,40,100,90,55,35
+139,Omastar,https://www.serebii.net/pokedex-swsh/omastar/,"['rock', 'water']",Spiral Pokémon,1.0,35.0,45,70,60,125,115,70,55
+140,Kabuto,https://www.serebii.net/pokedex-swsh/kabuto/,"['rock', 'water']",Shellfish Pokémon,0.5,11.5,45,30,80,90,55,45,55
+141,Kabutops,https://www.serebii.net/pokedex-swsh/kabutops/,"['rock', 'water']",Shellfish Pokémon,1.3,40.5,45,60,115,105,65,70,80
+142,Aerodactyl,https://www.serebii.net/pokedex-swsh/aerodactyl/,"['rock', 'flying']",Fossil Pokémon,1.8,59.0,45,80,105,65,60,75,130
+143,Snorlax,https://www.serebii.net/pokedex-swsh/snorlax/,['normal'],Sleeping Pokémon,2.1,460.0,25Legends55,160,110,65,65,110,30
+144,Articuno,https://www.serebii.net/pokedex-swsh/articuno/,"['ice', 'flying', 'psychic', 'flying']",Freeze Pokémon (Kantonian)Cruel Pokémon (Galarian),1.7,55.4,3,90,85,100,95,125,85
+145,Zapdos,https://www.serebii.net/pokedex-swsh/zapdos/,"['electric', 'flying', 'fighting', 'flying']",Electric Pokémon (Kantonian)Strong Legs Pokémon (Galarian),1.6,52.6,3,90,90,85,125,90,100
+146,Moltres,https://www.serebii.net/pokedex-swsh/moltres/,"['fire', 'flying', 'dark', 'flying']",Flame Pokémon (Kantonian)Malevolent Pokémon (Galarian),2.0,60.0,3,90,100,90,125,85,90
+147,Dratini,https://www.serebii.net/pokedex-swsh/dratini/,['dragon'],Dragon Pokémon,1.8,3.3,45,41,64,45,50,50,50
+148,Dragonair,https://www.serebii.net/pokedex-swsh/dragonair/,['dragon'],Dragon Pokémon,4.0,16.5,45,61,84,65,70,70,70
+149,Dragonite,https://www.serebii.net/pokedex-swsh/dragonite/,"['dragon', 'flying']",Dragon Pokémon,2.2,210.0,45,91,134,95,100,100,80
+150,Mewtwo,https://www.serebii.net/pokedex-swsh/mewtwo/,['psychic'],Genetic Pokémon,2.0,122.0,3,106,110,90,154,90,130
+151,Mew,https://www.serebii.net/pokedex-swsh/mew/,['psychic'],New Species Pokémon,0.4,4.0,45,100,100,100,100,100,100
+152,Chikorita,https://www.serebii.net/pokedex-swsh/chikorita/,['grass'],Leaf Pokémon,0.9,6.4,45,45,49,65,49,65,45
+153,Bayleef,https://www.serebii.net/pokedex-swsh/bayleef/,['grass'],Leaf Pokémon,1.2,15.8,45,60,62,80,63,80,60
+154,Meganium,https://www.serebii.net/pokedex-swsh/meganium/,['grass'],Herb Pokémon,1.8,100.5,45,80,82,100,83,100,80
+155,Cyndaquil,https://www.serebii.net/pokedex-swsh/cyndaquil/,['fire'],Fire Mouse Pokémon,0.5,7.9,45Legends205,39,52,43,60,50,65
+156,Quilava,https://www.serebii.net/pokedex-swsh/quilava/,['fire'],Volcano Pokémon,0.9,12.16,45Legends105,58,64,58,80,65,80
+157,Typhlosion,https://www.serebii.net/pokedex-swsh/typhlosion/,"['fire', 'fire', 'ghost']",Volcano Pokémon (Johtonian)Ghost Flame Pokémon (Hisuian),1.7,79.5,45Legends55,78,84,78,109,85,100
+158,Totodile,https://www.serebii.net/pokedex-swsh/totodile/,['water'],Big Jaw Pokémon,0.6,9.5,45,50,65,64,44,48,43
+159,Croconaw,https://www.serebii.net/pokedex-swsh/croconaw/,['water'],Big Jaw Pokémon,1.1,25,45,65,80,80,59,63,58
+160,Feraligatr,https://www.serebii.net/pokedex-swsh/feraligatr/,['water'],Big Jaw Pokémon,2.3,88.8,45,85,105,100,79,83,78
+161,Sentret,https://www.serebii.net/pokedex-swsh/sentret/,['normal'],Scout Pokémon,0.8,6,255,35,46,34,35,45,20
+162,Furret,https://www.serebii.net/pokedex-swsh/furret/,['normal'],Long Body Pokémon,1.8,32.5,90,85,76,64,45,55,90
+163,Hoothoot,https://www.serebii.net/pokedex-swsh/hoothoot/,"['normal', 'flying']",Owl Pokémon,0.7,21.2,255,60,30,30,36,56,50
+164,Noctowl,https://www.serebii.net/pokedex-swsh/noctowl/,"['normal', 'flying']",Owl Pokémon,1.6,40.8,90,100,50,50,86,96,70
+165,Ledyba,https://www.serebii.net/pokedex-swsh/ledyba/,"['bug', 'flying']",Five Star Pokémon,1,10.8,255,40,20,30,40,80,55
+166,Ledian,https://www.serebii.net/pokedex-swsh/ledian/,"['bug', 'flying']",Five Star Pokémon,1.4,35.6,90,55,35,50,55,110,85
+167,Spinarak,https://www.serebii.net/pokedex-swsh/spinarak/,"['bug', 'poison']",String Spit Pokémon,0.5,8.5,255,40,60,40,40,40,30
+168,Ariados,https://www.serebii.net/pokedex-swsh/ariados/,"['bug', 'poison']",Long Leg Pokémon,1.1,33.5,90,70,90,70,60,70,40
+169,Crobat,https://www.serebii.net/pokedex-swsh/crobat/,"['poison', 'flying']",Bat Pokémon,1.8,75.0,90Legends95,85,90,80,70,80,130
+170,Chinchou,https://www.serebii.net/pokedex-swsh/chinchou/,"['water', 'electric']",Angler Pokémon,0.5,12.0,190,75,38,38,56,56,67
+171,Lanturn,https://www.serebii.net/pokedex-swsh/lanturn/,"['water', 'electric']",Light Pokémon,1.2,22.5,75,125,58,58,76,76,67
+172,Pichu,https://www.serebii.net/pokedex-swsh/pichu/,['electric'],Tiny Mouse Pokémon,0.3,2.0,190Legends245,20,40,15,35,35,60
+173,Cleffa,https://www.serebii.net/pokedex-swsh/cleffa/,['fairy'],Star Shape Pokémon,0.3,3.0,150Legends225,50,25,28,45,55,15
+174,Igglybuff,https://www.serebii.net/pokedex-swsh/igglybuff/,"['normal', 'fairy']",Balloon Pokémon,0.3,1.0,170,90,30,15,40,20,15
+175,Togepi,https://www.serebii.net/pokedex-swsh/togepi/,['fairy'],Spike Ball Pokémon,0.3,1.5,190Legends205,35,20,65,40,65,20
+176,Togetic,https://www.serebii.net/pokedex-swsh/togetic/,"['fairy', 'flying']",Happiness Pokémon,0.6,3.2,75Legends105,55,40,85,80,105,40
+177,Natu,https://www.serebii.net/pokedex-swsh/natu/,"['psychic', 'flying']",Little Bird Pokémon,0.2,2.0,190,40,50,45,70,45,70
+178,Xatu,https://www.serebii.net/pokedex-swsh/xatu/,"['psychic', 'flying']",Mystic Pokémon,1.5,15.0,75,65,75,70,95,70,95
+179,Mareep,https://www.serebii.net/pokedex-swsh/mareep/,['electric'],Wool Pokémon,0.6,7.8,235,55,40,40,65,45,35
+180,Flaaffy,https://www.serebii.net/pokedex-swsh/flaaffy/,['electric'],Wool Pokémon,0.8,13.3,120,70,55,55,80,60,45
+181,Ampharos,https://www.serebii.net/pokedex-swsh/ampharos/,['electric'],Light Pokémon,1.4,61.5,45,90,75,85,115,90,55
+182,Bellossom,https://www.serebii.net/pokedex-swsh/bellossom/,['grass'],Flower Pokémon,0.4,5.8,45,75,80,95,90,100,50
+183,Marill,https://www.serebii.net/pokedex-swsh/marill/,"['water', 'fairy']",Aquamouse Pokémon,0.4,8.5,190,70,20,50,20,50,40
+184,Azumarill,https://www.serebii.net/pokedex-swsh/azumarill/,"['water', 'fairy']",Aquarabbit Pokémon,0.8,28.5,75,100,50,80,60,80,50
+185,Sudowoodo,https://www.serebii.net/pokedex-swsh/sudowoodo/,['rock'],Imitation Pokémon,1.2,38.0,65Legends135,70,100,115,30,65,30
+186,Politoed,https://www.serebii.net/pokedex-swsh/politoed/,['water'],Frog Pokémon,1.1,33.9,45,90,75,75,90,100,70
+187,Hoppip,https://www.serebii.net/pokedex-swsh/hoppip/,"['grass', 'flying']",Cottonweed Pokémon,0.4,0.5,255,35,35,40,35,55,50
+188,Skiploom,https://www.serebii.net/pokedex-swsh/skiploom/,"['grass', 'flying']",Cottonweed Pokémon,0.6,1,120,55,45,50,45,65,80
+189,Jumpluff,https://www.serebii.net/pokedex-swsh/jumpluff/,"['grass', 'flying']",Cottonweed Pokémon,0.8,3,45,75,55,70,55,95,110
+190,Aipom,https://www.serebii.net/pokedex-swsh/aipom/,['normal'],Long Tail Pokémon,0.8,11.5,45Legends235,55,70,55,40,55,85
+191,Sunkern,https://www.serebii.net/pokedex-swsh/sunkern/,['grass'],Seed Pokémon,0.3,1.8,235,30,30,30,30,30,30
+192,Sunflora,https://www.serebii.net/pokedex-swsh/sunflora/,['grass'],Sun Pokémon,0.8,8.5,120,75,75,55,105,85,30
+193,Yanma,https://www.serebii.net/pokedex-swsh/yanma/,"['bug', 'flying']",Clear Wing Pokémon,1.2,24.32,75Legends235,65,65,45,75,45,95
+194,Wooper,https://www.serebii.net/pokedex-swsh/wooper/,"['water', 'ground']",Water Fish Pokémon,0.4,8.5,255,55,45,45,25,25,15
+195,Quagsire,https://www.serebii.net/pokedex-swsh/quagsire/,"['water', 'ground']",Water Fish Pokémon,1.4,75.0,90,95,85,85,65,65,35
+196,Espeon,https://www.serebii.net/pokedex-swsh/espeon/,['psychic'],Sun Pokémon,0.9,26.5,45Legends115,65,65,60,130,95,110
+197,Umbreon,https://www.serebii.net/pokedex-swsh/umbreon/,['dark'],Moonlight Pokémon,1.0,27.0,45Legends115,95,65,110,60,130,65
+198,Murkrow,https://www.serebii.net/pokedex-swsh/murkrow/,"['dark', 'flying']",Darkness Pokémon,0.5,2.1,30Legends235,60,85,42,85,42,91
+199,Slowking,https://www.serebii.net/pokedex-swsh/slowking/,"['water', 'psychic', 'poison', 'psychic']",Royal Pokémon (Johtonian)Hexpert Pokémon (Galarian),2.0,79.5,70,95,75,80,100,110,30
+200,Misdreavus,https://www.serebii.net/pokedex-swsh/misdreavus/,['ghost'],Screech Pokémon,0.7,0.64,45Legends235,60,60,60,85,85,85
+201,Unown,https://www.serebii.net/pokedex-swsh/unown/,['psychic'],Symbol Pokémon,0.5,3.2,225Legends185,48,72,48,72,48,48
+202,Wobbuffet,https://www.serebii.net/pokedex-swsh/wobbuffet/,['psychic'],Patient Pokémon,1.3,28.5,45,190,33,58,33,58,33
+203,Girafarig,https://www.serebii.net/pokedex-swsh/girafarig/,"['normal', 'psychic']",Long Neck Pokémon,1.5,41.5,60,70,80,65,90,65,85
+204,Pineco,https://www.serebii.net/pokedex-swsh/pineco/,['bug'],Bagworm Pokémon,0.6,7.2,190,50,65,90,35,35,15
+205,Forretress,https://www.serebii.net/pokedex-swsh/forretress/,"['bug', 'steel']",Bagworm Pokémon,1.2,125.8,75,75,90,140,60,60,40
+206,Dunsparce,https://www.serebii.net/pokedex-swsh/dunsparce/,['normal'],Land Snake Pokémon,1.5,14.0,190,100,70,70,65,65,45
+207,Gligar,https://www.serebii.net/pokedex-swsh/gligar/,"['ground', 'flying']",Flyscorpion Pokémon,1.1,64.8,60Legends235,65,75,105,35,65,85
+208,Steelix,https://www.serebii.net/pokedex-swsh/steelix/,"['steel', 'ground']",Iron Snake Pokémon,9.2,400.0,25Legends135,75,85,200,55,65,30
+209,Snubbull,https://www.serebii.net/pokedex-swsh/snubbull/,['fairy'],Fairy Pokémon,0.6,7.8,190,60,80,50,40,40,30
+210,Granbull,https://www.serebii.net/pokedex-swsh/granbull/,['fairy'],Fairy Pokémon,1.4,48.7,75,90,120,75,60,60,45
+211,Qwilfish,https://www.serebii.net/pokedex-swsh/qwilfish/,"['water', 'poison', 'dark', 'poison']",Balloon Pokémon,0.5,3.9,45Legends235,65,95,85,55,55,85
+212,Scizor,https://www.serebii.net/pokedex-swsh/scizor/,"['bug', 'steel']",Pincer Pokémon,1.8,118.0,25Legends115,70,130,100,55,80,65
+213,Shuckle,https://www.serebii.net/pokedex-swsh/shuckle/,"['bug', 'rock']",Mold Pokémon,0.6,20.5,190,20,10,230,10,230,5
+214,Heracross,https://www.serebii.net/pokedex-swsh/heracross/,"['bug', 'fighting']",Singlehorn Pokémon,1.5,54.0,45Legends85,80,125,75,40,95,85
+215,Sneasel,https://www.serebii.net/pokedex-swsh/sneasel/,"['dark', 'ice', 'fighting', 'poison']",Sharp Claw Pokémon,0.9,28.0,60Legends235 (Johto)235 (Hisuian),55,95,55,35,75,115
+216,Teddiursa,https://www.serebii.net/pokedex-swsh/teddiursa/,['normal'],Little Bear Pokémon,0.6,8.8,120Legends225,60,80,50,50,50,40
+217,Ursaring,https://www.serebii.net/pokedex-swsh/ursaring/,['normal'],Hibernator Pokémon,1.8,125.8,60Legends125,90,130,75,75,75,55
+218,Slugma,https://www.serebii.net/pokedex-swsh/slugma/,['fire'],Lava Pokémon,0.7,35,190,40,40,40,70,40,20
+219,Magcargo,https://www.serebii.net/pokedex-swsh/magcargo/,"['fire', 'rock']",Lava Pokémon,0.8,55,75,60,50,120,90,80,30
+220,Swinub,https://www.serebii.net/pokedex-swsh/swinub/,"['ice', 'ground']",Pig Pokémon,0.4,6.5,225,50,50,40,30,30,50
+221,Piloswine,https://www.serebii.net/pokedex-swsh/piloswine/,"['ice', 'ground']",Swine Pokémon,1.1,55.8,75Legends125,100,100,80,60,60,50
+222,Corsola,https://www.serebii.net/pokedex-swsh/corsola/,"['water', 'rock', 'ghost']",Coral Pokémon,0.6,5.0,60,65,55,95,65,95,35
+223,Remoraid,https://www.serebii.net/pokedex-swsh/remoraid/,['water'],Jet Pokémon,0.6,12.0,190Legends235,35,65,35,65,35,65
+224,Octillery,https://www.serebii.net/pokedex-swsh/octillery/,['water'],Jet Pokémon,0.9,28.5,75Legends135,75,105,75,105,75,45
+225,Delibird,https://www.serebii.net/pokedex-swsh/delibird/,"['ice', 'flying']",Delivery Pokémon,0.9,16.0,45,45,55,45,65,45,75
+226,Mantine,https://www.serebii.net/pokedex-swsh/mantine/,"['water', 'flying']",Kite Pokémon,2.1,220.0,25Legends135,85,40,70,80,140,70
+227,Skarmory,https://www.serebii.net/pokedex-swsh/skarmory/,"['steel', 'flying']",Armor Bird Pokémon,1.7,50.5,25,65,80,140,40,70,70
+228,Houndour,https://www.serebii.net/pokedex-swsh/houndour/,"['dark', 'fire']",Dark Pokémon,0.6,10.8,120,45,60,30,80,50,65
+229,Houndoom,https://www.serebii.net/pokedex-swsh/houndoom/,"['dark', 'fire']",Dark Pokémon,1.4,35,45,75,90,50,110,80,95
+230,Kingdra,https://www.serebii.net/pokedex-swsh/kingdra/,"['water', 'dragon']",Dragon Pokémon,1.8,152.0,45,75,95,95,95,95,85
+231,Phanpy,https://www.serebii.net/pokedex-swsh/phanpy/,['ground'],Long Nose Pokémon,0.5,33.5,120,90,60,60,40,40,40
+232,Donphan,https://www.serebii.net/pokedex-swsh/donphan/,['ground'],Armor Pokémon,1.1,120,60,90,120,120,60,60,50
+233,Porygon2,https://www.serebii.net/pokedex-swsh/porygon2/,['normal'],Virtual Pokémon,0.6,32.5,45Legends105,85,80,90,105,95,60
+234,Stantler,https://www.serebii.net/pokedex-swsh/stantler/,['normal'],Big Horn Pokémon,1.4,71.2,45Legends235,73,95,62,85,65,85
+235,Smeargle,https://www.serebii.net/pokedex-swsh/smeargle/,['normal'],Painter Pokémon,1.2,58,45,55,20,35,20,45,75
+236,Tyrogue,https://www.serebii.net/pokedex-swsh/tyrogue/,['fighting'],Scuffle Pokémon,0.7,21.0,75,35,35,35,35,35,35
+237,Hitmontop,https://www.serebii.net/pokedex-swsh/hitmontop/,['fighting'],Handstand Pokémon,1.4,48.0,45,50,95,95,35,110,70
+238,Smoochum,https://www.serebii.net/pokedex-swsh/smoochum/,"['ice', 'psychic']",Kiss Pokémon,0.4,6.0,45,45,30,15,85,65,65
+239,Elekid,https://www.serebii.net/pokedex-swsh/elekid/,['electric'],Electric Pokémon,0.6,23.5,45Legends225,45,63,37,65,55,95
+240,Magby,https://www.serebii.net/pokedex-swsh/magby/,['fire'],Live Coal Pokémon,0.7,21.4,45Legends225,45,75,37,70,55,83
+241,Miltank,https://www.serebii.net/pokedex-swsh/miltank/,['normal'],Milk Cow Pokémon,1.2,75.5,45,95,80,105,40,70,100
+242,Blissey,https://www.serebii.net/pokedex-swsh/blissey/,['normal'],Happiness Pokémon,1.5,46.8,30Legends55,255,10,10,75,135,55
+243,Raikou,https://www.serebii.net/pokedex-swsh/raikou/,['electric'],Thunder Pokémon,1.9,178.0,3,90,85,75,115,100,115
+244,Entei,https://www.serebii.net/pokedex-swsh/entei/,['fire'],Volcano Pokémon,2.1,198.0,3,115,115,85,90,75,100
+245,Suicune,https://www.serebii.net/pokedex-swsh/suicune/,['water'],Aurora Pokémon,2.0,187.0,3,100,75,115,90,115,85
+246,Larvitar,https://www.serebii.net/pokedex-swsh/larvitar/,"['rock', 'ground']",Rock Skin Pokémon,0.6,72.0,45,50,64,50,45,50,41
+247,Pupitar,https://www.serebii.net/pokedex-swsh/pupitar/,"['rock', 'ground']",Hard Shell Pokémon,1.2,152.0,45,70,84,70,65,70,51
+248,Tyranitar,https://www.serebii.net/pokedex-swsh/tyranitar/,"['rock', 'dark']",Armor Pokémon,2.0,202.0,45,100,134,110,95,100,61
+249,Lugia,https://www.serebii.net/pokedex-swsh/lugia/,"['psychic', 'flying']",Diving Pokémon,5.2,216.0,3,106,90,130,90,154,110
+250,Ho-Oh,https://www.serebii.net/pokedex-swsh/ho-oh/,"['fire', 'flying']",Rainbow Pokémon,3.8,199.0,3,106,130,90,110,154,90
+251,Celebi,https://www.serebii.net/pokedex-swsh/celebi/,"['psychic', 'grass']",Time Travel Pokémon,0.6,5.0,45,100,100,100,100,100,100
+252,Treecko,https://www.serebii.net/pokedex-swsh/treecko/,['grass'],Wood Gecko Pokémon,0.5,5.0,45,40,45,35,65,55,70
+253,Grovyle,https://www.serebii.net/pokedex-swsh/grovyle/,['grass'],Wood Gecko Pokémon,0.9,21.6,45,50,65,45,85,65,95
+254,Sceptile,https://www.serebii.net/pokedex-swsh/sceptile/,['grass'],Forest Pokémon,1.7,52.2,45,70,85,65,105,85,120
+255,Torchic,https://www.serebii.net/pokedex-swsh/torchic/,['fire'],Chick Pokémon,0.4,2.5,45,45,60,40,70,50,45
+256,Combusken,https://www.serebii.net/pokedex-swsh/combusken/,"['fire', 'fighting']",Young Fowl Pokémon,0.9,19.5,45,60,85,60,85,60,55
+257,Blaziken,https://www.serebii.net/pokedex-swsh/blaziken/,"['fire', 'fighting']",Blaze Pokémon,1.9,52.0,45,80,120,70,110,70,80
+258,Mudkip,https://www.serebii.net/pokedex-swsh/mudkip/,['water'],Mud Fish Pokémon,0.4,7.6,45,50,70,50,50,50,40
+259,Marshtomp,https://www.serebii.net/pokedex-swsh/marshtomp/,"['water', 'ground']",Mud Fish Pokémon,0.7,28.0,45,70,85,70,60,70,50
+260,Swampert,https://www.serebii.net/pokedex-swsh/swampert/,"['water', 'ground']",Mud Fish Pokémon,1.5,81.9,45,100,110,90,85,90,60
+261,Poochyena,https://www.serebii.net/pokedex-swsh/poochyena/,['dark'],Bite Pokémon,0.5,13.6,255,35,55,35,30,30,35
+262,Mightyena,https://www.serebii.net/pokedex-swsh/mightyena/,['dark'],Bite Pokémon,1,37,127,70,90,70,60,60,70
+263,Zigzagoon,https://www.serebii.net/pokedex-swsh/zigzagoon/,"['normal', 'dark', 'normal']",Tiny Racoon Pokémon,0.4,17.5,255,38,30,41,30,41,60
+264,Linoone,https://www.serebii.net/pokedex-swsh/linoone/,"['normal', 'dark', 'normal']",Rushing Pokémon,0.5,32.5,90,78,70,61,50,61,100
+265,Wurmple,https://www.serebii.net/pokedex-swsh/wurmple/,['bug'],Worm Pokémon,0.3,3.6,255Legends245,45,45,35,20,30,20
+266,Silcoon,https://www.serebii.net/pokedex-swsh/silcoon/,['bug'],Cocoon Pokémon,0.6,6.4,120Legends195,50,35,55,25,25,15
+267,Beautifly,https://www.serebii.net/pokedex-swsh/beautifly/,"['bug', 'flying']",Butterfly Pokémon,0.8,28.4,45Legends145,60,70,50,100,50,65
+268,Cascoon,https://www.serebii.net/pokedex-swsh/cascoon/,['bug'],Cocoon Pokémon,0.7,11.5,120Legends195,50,35,55,25,25,15
+269,Dustox,https://www.serebii.net/pokedex-swsh/dustox/,"['bug', 'poison']",Poison Moth Pokémon,1.2,31.6,45Legends145,60,50,70,50,90,65
+270,Lotad,https://www.serebii.net/pokedex-swsh/lotad/,"['water', 'grass']",Water Weed Pokémon,0.5,2.6,255,40,30,30,40,50,30
+271,Lombre,https://www.serebii.net/pokedex-swsh/lombre/,"['water', 'grass']",Jolly Pokémon,1.2,32.5,120,60,50,50,60,70,50
+272,Ludicolo,https://www.serebii.net/pokedex-swsh/ludicolo/,"['water', 'grass']",Carefree Pokémon,1.5,55.0,45,80,70,70,90,100,70
+273,Seedot,https://www.serebii.net/pokedex-swsh/seedot/,['grass'],Acorn Pokémon,0.5,4.0,255,40,40,50,30,30,30
+274,Nuzleaf,https://www.serebii.net/pokedex-swsh/nuzleaf/,"['grass', 'dark']",Wily Pokémon,1.0,28.0,120,70,70,40,60,40,60
+275,Shiftry,https://www.serebii.net/pokedex-swsh/shiftry/,"['grass', 'dark']",Wickid Pokémon,1.3,59.6,45,90,100,60,90,60,80
+276,Taillow,https://www.serebii.net/pokedex-swsh/taillow/,"['normal', 'flying']",TinySwallow Pokémon,0.3,2.3,200,40,55,30,30,30,85
+277,Swellow,https://www.serebii.net/pokedex-swsh/swellow/,"['normal', 'flying']",Swallow Pokémon,0.7,19.8,45,60,85,60,75,50,125
+278,Wingull,https://www.serebii.net/pokedex-swsh/wingull/,"['water', 'flying']",Seagull Pokémon,0.6,9.5,190,40,30,30,55,30,85
+279,Pelipper,https://www.serebii.net/pokedex-swsh/pelipper/,"['water', 'flying']",Water Bird Pokémon,1.2,28.0,45,60,50,100,95,70,65
+280,Ralts,https://www.serebii.net/pokedex-swsh/ralts/,"['psychic', 'fairy']",Feeling Pokémon,0.4,6.6,235Legends225,28,25,25,45,35,40
+281,Kirlia,https://www.serebii.net/pokedex-swsh/kirlia/,"['psychic', 'fairy']",Emotion Pokémon,0.8,20.2,120Legends125,38,35,35,65,55,50
+282,Gardevoir,https://www.serebii.net/pokedex-swsh/gardevoir/,"['psychic', 'fairy']",Embrace Pokémon,1.6,48.4,45Legends75,68,65,65,125,115,80
+283,Surskit,https://www.serebii.net/pokedex-swsh/surskit/,"['bug', 'water']",Pond Skater Pokémon,0.5,1.7,200,40,30,32,50,52,65
+284,Masquerain,https://www.serebii.net/pokedex-swsh/masquerain/,"['bug', 'flying']",Eyeball Pokémon,0.8,3.6,75,70,60,62,100,82,80
+285,Shroomish,https://www.serebii.net/pokedex-swsh/shroomish/,['grass'],Mushroom Pokémon,0.4,4.5,255,60,40,60,40,60,35
+286,Breloom,https://www.serebii.net/pokedex-swsh/breloom/,"['grass', 'fighting']",Mushroom Pokémon,1.2,39.2,90,60,130,80,60,60,70
+287,Slakoth,https://www.serebii.net/pokedex-swsh/slakoth/,['normal'],Slacker Pokémon,0.8,24,255,60,60,60,35,35,30
+288,Vigoroth,https://www.serebii.net/pokedex-swsh/vigoroth/,['normal'],Wild Monkey Pokémon,1.4,46.5,120,80,80,80,55,55,90
+289,Slaking,https://www.serebii.net/pokedex-swsh/slaking/,['normal'],Lazy Pokémon,2,130.5,45,150,160,100,95,65,100
+290,Nincada,https://www.serebii.net/pokedex-swsh/nincada/,"['bug', 'ground']",Trainee Pokémon,0.5,5.5,255,31,45,90,30,30,40
+291,Ninjask,https://www.serebii.net/pokedex-swsh/ninjask/,"['bug', 'flying']",Ninja Pokémon,0.8,12.0,120,61,90,45,50,50,160
+292,Shedinja,https://www.serebii.net/pokedex-swsh/shedinja/,"['bug', 'ghost']",Shed Pokémon,0.8,1.2,45,1,90,45,30,30,40
+293,Whismur,https://www.serebii.net/pokedex-swsh/whismur/,['normal'],Whisper Pokémon,0.6,16.3,190,64,51,23,51,23,28
+294,Loudred,https://www.serebii.net/pokedex-swsh/loudred/,['normal'],Big Voice Pokémon,1.0,40.5,120,84,71,43,71,43,48
+295,Exploud,https://www.serebii.net/pokedex-swsh/exploud/,['normal'],Loud Noise Pokémon,1.5,84.0,45,104,91,63,91,73,68
+296,Makuhita,https://www.serebii.net/pokedex-swsh/makuhita/,['fighting'],Guts Pokémon,1,86.4,180,72,60,30,20,30,25
+297,Hariyama,https://www.serebii.net/pokedex-swsh/hariyama/,['fighting'],Arm Thrust Pokémon,2.3,253.8,200,144,120,60,40,60,50
+298,Azurill,https://www.serebii.net/pokedex-swsh/azurill/,"['normal', 'fairy']",Polka Dot Pokémon,0.2,2.0,150,50,20,40,20,40,20
+299,Nosepass,https://www.serebii.net/pokedex-swsh/nosepass/,['rock'],Compass Pokémon,0.8,62.08,255Legends235,30,45,135,45,90,30
+300,Skitty,https://www.serebii.net/pokedex-swsh/skitty/,['normal'],Kitten Pokémon,0.6,11,255,50,45,45,35,35,50
+301,Delcatty,https://www.serebii.net/pokedex-swsh/delcatty/,['normal'],Prim Pokémon,1.1,32.6,60,70,65,65,55,55,90
+302,Sableye,https://www.serebii.net/pokedex-swsh/sableye/,"['dark', 'ghost']",Darkness Pokémon,0.5,11.0,45,50,75,75,65,65,50
+303,Mawile,https://www.serebii.net/pokedex-swsh/mawile/,"['steel', 'fairy']",Deceiver Pokémon,0.6,11.5,45,50,85,85,55,55,50
+304,Aron,https://www.serebii.net/pokedex-swsh/aron/,"['steel', 'rock']",Iron Armor Pokémon,0.4,60.0,180,50,70,100,40,40,30
+305,Lairon,https://www.serebii.net/pokedex-swsh/lairon/,"['steel', 'rock']",Iron Armor Pokémon,0.9,120.0,90,60,90,140,50,50,40
+306,Aggron,https://www.serebii.net/pokedex-swsh/aggron/,"['steel', 'rock']",Iron Armor Pokémon,2.1,360.0,45,70,110,180,60,60,50
+307,Meditite,https://www.serebii.net/pokedex-swsh/meditite/,"['fighting', 'psychic']",Meditate Pokémon,0.6,11.2,180,30,40,55,40,55,60
+308,Medicham,https://www.serebii.net/pokedex-swsh/medicham/,"['fighting', 'psychic']",Meditate Pokémon,1.3,31.5,90,60,60,75,60,75,80
+309,Electrike,https://www.serebii.net/pokedex-swsh/electrike/,['electric'],Lightning Pokémon,0.6,15.2,120,40,45,40,65,40,65
+310,Manectric,https://www.serebii.net/pokedex-swsh/manectric/,['electric'],Discharge Pokémon,1.5,40.2,45,70,75,60,105,60,105
+311,Plusle,https://www.serebii.net/pokedex-swsh/plusle/,['electric'],Cheering Pokémon,0.4,4.2,200,60,50,40,85,75,95
+312,Minun,https://www.serebii.net/pokedex-swsh/minun/,['electric'],Cheering Pokémon,0.4,4.2,200,60,40,50,75,85,95
+313,Volbeat,https://www.serebii.net/pokedex-swsh/volbeat/,['bug'],Firefly Pokémon,0.7,17.7,150,65,73,75,47,85,85
+314,Illumise,https://www.serebii.net/pokedex-swsh/illumise/,['bug'],Firefly Pokémon,0.6,17.7,150,65,47,75,73,85,85
+315,Roselia,https://www.serebii.net/pokedex-swsh/roselia/,"['grass', 'poison']",Thorn Pokémon,0.3,2.0,150Legends125,50,60,45,100,80,65
+316,Gulpin,https://www.serebii.net/pokedex-swsh/gulpin/,['poison'],Stomach Pokémon,0.4,10.3,225,70,43,53,43,53,40
+317,Swalot,https://www.serebii.net/pokedex-swsh/swalot/,['poison'],Poison Bag Pokémon,1.7,80,75,100,73,83,73,83,55
+318,Carvanha,https://www.serebii.net/pokedex-swsh/carvanha/,"['water', 'dark']",Savage Pokémon,0.8,20.8,225,45,90,20,65,20,65
+319,Sharpedo,https://www.serebii.net/pokedex-swsh/sharpedo/,"['water', 'dark']",Brutal Pokémon,1.8,88.8,60,70,120,40,95,40,95
+320,Wailmer,https://www.serebii.net/pokedex-swsh/wailmer/,['water'],Ball Whale Pokémon,2.0,130.0,125,130,70,35,70,35,60
+321,Wailord,https://www.serebii.net/pokedex-swsh/wailord/,['water'],Float Whale Pokémon,14.5,398.0,60,170,90,45,90,45,60
+322,Numel,https://www.serebii.net/pokedex-swsh/numel/,"['fire', 'ground']",Numb Pokémon,0.7,24,255,60,60,40,65,45,35
+323,Camerupt,https://www.serebii.net/pokedex-swsh/camerupt/,"['fire', 'ground']",Eruption Pokémon,1.9,220,150,70,100,70,105,75,40
+324,Torkoal,https://www.serebii.net/pokedex-swsh/torkoal/,['fire'],Coal Pokémon,0.5,80.4,90,70,85,140,85,70,20
+325,Spoink,https://www.serebii.net/pokedex-swsh/spoink/,['psychic'],Bounce Pokémon,0.7,30.6,255,60,25,35,70,80,60
+326,Grumpig,https://www.serebii.net/pokedex-swsh/grumpig/,['psychic'],Manipulate Pokémon,0.9,71.5,60,80,45,65,90,110,80
+327,Spinda,https://www.serebii.net/pokedex-swsh/spinda/,['normal'],Spot Panda Pokémon,1.1,5,255,60,60,60,60,60,60
+328,Trapinch,https://www.serebii.net/pokedex-swsh/trapinch/,['ground'],Ant Pit Pokémon,0.7,15.0,255,45,100,45,45,45,10
+329,Vibrava,https://www.serebii.net/pokedex-swsh/vibrava/,"['ground', 'dragon']",Vibration Pokémon,1.1,15.3,120,50,70,50,50,50,70
+330,Flygon,https://www.serebii.net/pokedex-swsh/flygon/,"['ground', 'dragon']",Mystic Pokémon,2.0,82.0,45,80,100,80,80,80,100
+331,Cacnea,https://www.serebii.net/pokedex-swsh/cacnea/,['grass'],Cactus Pokémon,0.4,51.3,190,50,85,40,85,40,35
+332,Cacturne,https://www.serebii.net/pokedex-swsh/cacturne/,"['grass', 'dark']",Scarecrow Pokémon,1.3,77.4,60,70,115,60,115,60,55
+333,Swablu,https://www.serebii.net/pokedex-swsh/swablu/,"['normal', 'flying']",Cotton Bird Pokémon,0.4,1.2,255,45,40,60,40,75,50
+334,Altaria,https://www.serebii.net/pokedex-swsh/altaria/,"['dragon', 'flying']",Humming Pokémon,1.1,20.6,45,75,70,90,70,105,80
+335,Zangoose,https://www.serebii.net/pokedex-swsh/zangoose/,['normal'],Cat Ferret Pokémon,1.3,40.3,90,73,115,60,60,60,90
+336,Seviper,https://www.serebii.net/pokedex-swsh/seviper/,['poison'],Fang Snake Pokémon,2.7,52.5,90,73,100,60,100,60,65
+337,Lunatone,https://www.serebii.net/pokedex-swsh/lunatone/,"['rock', 'psychic']",Meteorite Pokémon,1.0,168.0,45,90,55,65,95,85,70
+338,Solrock,https://www.serebii.net/pokedex-swsh/solrock/,"['rock', 'psychic']",Meteorite Pokémon,1.2,154.0,45,90,95,85,55,65,70
+339,Barboach,https://www.serebii.net/pokedex-swsh/barboach/,"['water', 'ground']",Whiskers Pokémon,0.4,1.9,190Legends235,50,48,43,46,41,60
+340,Whiscash,https://www.serebii.net/pokedex-swsh/whiscash/,"['water', 'ground']",Whiskers Pokémon,0.9,23.6,75Legends135,110,78,73,76,71,60
+341,Corphish,https://www.serebii.net/pokedex-swsh/corphish/,['water'],Ruffian Pokémon,0.6,11.5,205,43,80,65,50,35,35
+342,Crawdaunt,https://www.serebii.net/pokedex-swsh/crawdaunt/,"['water', 'dark']",Rogue Pokémon,1.1,32.8,155,63,120,85,90,55,55
+343,Baltoy,https://www.serebii.net/pokedex-swsh/baltoy/,"['ground', 'psychic']",Clay Doll Pokémon,0.5,21.5,255,40,40,55,40,70,55
+344,Claydol,https://www.serebii.net/pokedex-swsh/claydol/,"['ground', 'psychic']",Clay Doll Pokémon,1.5,108.0,90,60,70,105,70,120,75
+345,Lileep,https://www.serebii.net/pokedex-swsh/lileep/,"['rock', 'grass']",Sea Lily Pokémon,1.0,23.8,45,66,41,77,61,87,23
+346,Cradily,https://www.serebii.net/pokedex-swsh/cradily/,"['rock', 'grass']",Barnacle Pokémon,1.5,60.4,45,86,81,97,81,107,43
+347,Anorith,https://www.serebii.net/pokedex-swsh/anorith/,"['rock', 'bug']",Old Shrimp Pokémon,0.7,12.5,45,45,95,50,40,50,75
+348,Armaldo,https://www.serebii.net/pokedex-swsh/armaldo/,"['rock', 'bug']",Plate Pokémon,1.5,68.2,45,75,125,100,70,80,45
+349,Feebas,https://www.serebii.net/pokedex-swsh/feebas/,['water'],Fish Pokémon,0.6,7.4,255,20,15,20,10,55,80
+350,Milotic,https://www.serebii.net/pokedex-swsh/milotic/,['water'],Tender Pokémon,6.2,162.0,60,95,60,79,100,125,81
+351,Castform,https://www.serebii.net/pokedex-swsh/castform/,"['normal', 'fire', 'water', 'ice']",Weather Pokémon,0.3,0.8,45,70,70,70,70,70,70
+352,Kecleon,https://www.serebii.net/pokedex-swsh/kecleon/,['normal'],Color Swap Pokémon,1,22,200,60,90,70,60,120,40
+353,Shuppet,https://www.serebii.net/pokedex-swsh/shuppet/,['ghost'],Puppet Pokémon,0.6,2.3,225,44,75,35,63,33,45
+354,Banette,https://www.serebii.net/pokedex-swsh/banette/,['ghost'],Marionette Pokémon,1.1,12.5,45,64,115,65,83,63,65
+355,Duskull,https://www.serebii.net/pokedex-swsh/duskull/,['ghost'],Requiem Pokémon,0.8,15.0,190Legends225,20,40,90,30,90,25
+356,Dusclops,https://www.serebii.net/pokedex-swsh/dusclops/,['ghost'],Beckon Pokémon,1.6,30.6,90Legends125,40,70,130,60,130,25
+357,Tropius,https://www.serebii.net/pokedex-swsh/tropius/,"['grass', 'flying']",Fruit Pokémon,2,100,200,99,68,83,72,87,51
+358,Chimecho,https://www.serebii.net/pokedex-swsh/chimecho/,['psychic'],Wind Chime Pokémon,0.6,0.64,45Legends135,75,50,80,95,90,65
+359,Absol,https://www.serebii.net/pokedex-swsh/absol/,['dark'],Disaster Pokémon,1.2,47.0,30,65,130,60,75,60,75
+360,Wynaut,https://www.serebii.net/pokedex-swsh/wynaut/,['psychic'],Bright Pokémon,0.6,14.0,125,95,23,48,23,48,23
+361,Snorunt,https://www.serebii.net/pokedex-swsh/snorunt/,['ice'],Snow Hat Pokémon,0.7,16.8,190Legends235,50,50,50,50,50,50
+362,Glalie,https://www.serebii.net/pokedex-swsh/glalie/,['ice'],Face Pokémon,1.5,256.5,75Legends135,80,80,80,80,80,80
+363,Spheal,https://www.serebii.net/pokedex-swsh/spheal/,"['ice', 'water']",Clap Pokémon,0.8,39.5,255Legends225,70,40,50,55,50,25
+364,Sealeo,https://www.serebii.net/pokedex-swsh/sealeo/,"['ice', 'water']",Ball Roll Pokémon,1.1,87.6,120Legends125,90,60,70,75,70,45
+365,Walrein,https://www.serebii.net/pokedex-swsh/walrein/,"['ice', 'water']",Ice Break Pokémon,1.4,150.6,45Legends75,110,80,90,95,90,65
+366,Clamperl,https://www.serebii.net/pokedex-swsh/clamperl/,['water'],Bivalve Pokémon,0.4,52.5,255,35,64,85,74,55,32
+367,Huntail,https://www.serebii.net/pokedex-swsh/huntail/,['water'],Deep Sea Pokémon,1.7,27,60,55,104,105,94,75,52
+368,Gorebyss,https://www.serebii.net/pokedex-swsh/gorebyss/,['water'],South Sea Pokémon,1.8,22.6,60,55,84,105,114,75,52
+369,Relicanth,https://www.serebii.net/pokedex-swsh/relicanth/,"['water', 'rock']",Longevity Pokémon,1.0,23.4,25,100,90,130,45,65,55
+370,Luvdisc,https://www.serebii.net/pokedex-swsh/luvdisc/,['water'],Rendezvous Pokémon,0.6,8.7,225,43,30,55,40,65,97
+371,Bagon,https://www.serebii.net/pokedex-swsh/bagon/,['dragon'],Rock Head Pokémon,0.6,42.1,45,45,75,60,40,30,50
+372,Shelgon,https://www.serebii.net/pokedex-swsh/shelgon/,['dragon'],Endurance Pokémon,1.1,110.5,45,65,95,100,60,50,50
+373,Salamence,https://www.serebii.net/pokedex-swsh/salamence/,"['dragon', 'flying']",Dragon Pokémon,1.5,102.6,45,95,135,80,110,80,100
+374,Beldum,https://www.serebii.net/pokedex-swsh/beldum/,"['steel', 'psychic']",Iron Ball Pokémon,0.6,95.2,3,40,55,80,35,60,30
+375,Metang,https://www.serebii.net/pokedex-swsh/metang/,"['steel', 'psychic']",Iron Claw Pokémon,1.2,202.5,3,60,75,100,55,80,50
+376,Metagross,https://www.serebii.net/pokedex-swsh/metagross/,"['steel', 'psychic']",Iron Leg Pokémon,1.6,550.0,3,80,135,130,95,90,70
+377,Regirock,https://www.serebii.net/pokedex-swsh/regirock/,['rock'],Rock Peak Pokémon,1.7,230.0,3,80,100,200,50,100,50
+378,Regice,https://www.serebii.net/pokedex-swsh/regice/,['ice'],Iceberg Pokémon,1.8,175.0,3,80,50,100,100,200,50
+379,Registeel,https://www.serebii.net/pokedex-swsh/registeel/,['steel'],Iron Pokémon,1.9,205.0,3,80,75,150,75,150,50
+380,Latias,https://www.serebii.net/pokedex-swsh/latias/,"['dragon', 'psychic']",Eon Pokémon,1.4,40.0,3,80,80,90,110,130,110
+381,Latios,https://www.serebii.net/pokedex-swsh/latios/,"['dragon', 'psychic']",Eon Pokémon,2.0,60.0,3,80,90,80,130,110,110
+382,Kyogre,https://www.serebii.net/pokedex-swsh/kyogre/,['water'],Sea Basin Pokémon,4.5,352.0,3,100,100,90,150,140,90
+383,Groudon,https://www.serebii.net/pokedex-swsh/groudon/,['ground'],Continent Pokémon,3.5,950.0,3,100,150,140,100,90,90
+384,Rayquaza,https://www.serebii.net/pokedex-swsh/rayquaza/,"['dragon', 'flying']",Sky High Pokémon,7.0,206.5,45,105,150,90,150,90,95
+385,Jirachi,https://www.serebii.net/pokedex-swsh/jirachi/,"['steel', 'psychic']",Wish Pokémon,0.3,1.1,3,100,100,100,100,100,100
+386,Deoxys,https://www.serebii.net/pokedex-swsh/deoxys/,['psychic'],DNA Pokémon,1.7,60.8,3,50,150,50,150,50,150
+387,Turtwig,https://www.serebii.net/pokedex-swsh/turtwig/,['grass'],Tiny Leaf Pokémon,0.4,10.2,45Legends205,55,68,64,45,55,31
+388,Grotle,https://www.serebii.net/pokedex-swsh/grotle/,['grass'],Grove Pokémon,1.1,62.08,45Legends105,75,89,85,55,65,36
+389,Torterra,https://www.serebii.net/pokedex-swsh/torterra/,"['grass', 'ground']",Continent Pokémon,2.2,198.4,45Legends55,95,109,105,75,85,56
+390,Chimchar,https://www.serebii.net/pokedex-swsh/chimchar/,['fire'],Chimp Pokémon,0.5,6.2,45Legends205,44,58,44,58,44,61
+391,Monferno,https://www.serebii.net/pokedex-swsh/monferno/,"['fire', 'fighting']",Playful Pokémon,0.9,14.08,45Legends105,64,78,52,78,52,81
+392,Infernape,https://www.serebii.net/pokedex-swsh/infernape/,"['fire', 'fighting']",Flame Pokémon,1.2,35.2,45Legends55,76,104,71,104,71,108
+393,Piplup,https://www.serebii.net/pokedex-swsh/piplup/,['water'],Penguin Pokémon,0.4,5.2,45Legends205,53,51,53,61,56,40
+394,Prinplup,https://www.serebii.net/pokedex-swsh/prinplup/,['water'],Penguin Pokémon,0.8,14.72,45Legends105,64,66,68,81,76,50
+395,Empoleon,https://www.serebii.net/pokedex-swsh/empoleon/,"['water', 'steel']",Emperor Pokémon,1.7,84.5,45Legends55,84,86,88,111,101,60
+396,Starly,https://www.serebii.net/pokedex-swsh/starly/,"['normal', 'flying']",Starling Pokémon,0.3,1.28,255Legends245,40,55,30,30,30,60
+397,Staravia,https://www.serebii.net/pokedex-swsh/staravia/,"['normal', 'flying']",Starling Pokémon,0.6,15.5,120Legends145,55,75,50,40,40,80
+398,Staraptor,https://www.serebii.net/pokedex-swsh/staraptor/,"['normal', 'flying']",Predator Pokémon,1.2,24.9,45Legends95,85,120,70,50,60,100
+399,Bidoof,https://www.serebii.net/pokedex-swsh/bidoof/,['normal'],Plump Mouse Pokémon,0.5,12.8,255,59,45,40,35,40,31
+400,Bibarel,https://www.serebii.net/pokedex-swsh/bibarel/,"['normal', 'water']",Beaver Pokémon,0.8,31.5,127Legends155,79,85,60,55,60,71
+401,Kricketot,https://www.serebii.net/pokedex-swsh/kricketot/,['bug'],Cricket Pokémon,0.3,2.2,255,37,25,41,25,41,25
+402,Kricketune,https://www.serebii.net/pokedex-swsh/kricketune/,['bug'],Cricket Pokémon,0.8,25.5,45Legends205,77,85,51,55,51,65
+403,Shinx,https://www.serebii.net/pokedex-swsh/shinx/,['electric'],Flash Pokémon,0.5,9.5,235Legends225,45,65,34,40,34,45
+404,Luxio,https://www.serebii.net/pokedex-swsh/luxio/,['electric'],Spark Pokémon,0.9,30.5,120Legends125,60,85,49,60,49,60
+405,Luxray,https://www.serebii.net/pokedex-swsh/luxray/,['electric'],Gleam Eyes Pokémon,1.4,42.0,45Legends75,80,120,79,95,79,70
+406,Budew,https://www.serebii.net/pokedex-swsh/budew/,"['grass', 'poison']",Bud Pokémon,0.2,1.2,255Legends225,40,30,35,50,70,55
+407,Roserade,https://www.serebii.net/pokedex-swsh/roserade/,"['grass', 'poison']",Bouquet Pokémon,0.9,14.5,75,60,70,65,125,105,90
+408,Cranidos,https://www.serebii.net/pokedex-swsh/cranidos/,['rock'],Head Butt Pokémon,0.9,31.5,45Legends215,67,125,40,30,30,58
+409,Rampardos,https://www.serebii.net/pokedex-swsh/rampardos/,['rock'],Head Butt Pokémon,1.6,102.5,45Legends115,97,165,60,65,50,58
+410,Shieldon,https://www.serebii.net/pokedex-swsh/shieldon/,"['rock', 'steel']",Shield Pokémon,0.5,36.48,45Legends215,30,42,118,42,88,30
+411,Bastiodon,https://www.serebii.net/pokedex-swsh/bastiodon/,"['rock', 'steel']",Shield Pokémon,1.3,149.5,45Legends115,60,52,168,47,138,30
+412,Burmy,https://www.serebii.net/pokedex-swsh/burmy/,['bug'],Bagworm Pokémon,0.2,3.4,120Legends235,40,29,45,29,45,36
+413,Wormadam,https://www.serebii.net/pokedex-swsh/wormadam/,"['bug', 'grass', 'bug', 'ground', 'bug', 'steel']",Bagworm Pokémon,0.5,6.5,45Legends135,60,59,85,79,105,36
+414,Mothim,https://www.serebii.net/pokedex-swsh/mothim/,"['bug', 'flying']",Moth Pokémon,0.9,23.3,45Legends135,70,94,50,94,50,66
+415,Combee,https://www.serebii.net/pokedex-swsh/combee/,"['bug', 'flying']",Tiny Bee Pokémon,0.3,5.5,120Legends235,30,30,42,30,42,70
+416,Vespiquen,https://www.serebii.net/pokedex-swsh/vespiquen/,"['bug', 'flying']",Beehive Pokémon,1.2,38.5,45Legends135,70,80,102,80,102,40
+417,Pachirisu,https://www.serebii.net/pokedex-swsh/pachirisu/,['electric'],EleSquirrel Pokémon,0.4,3.9,200Legends185,60,45,70,45,90,95
+418,Buizel,https://www.serebii.net/pokedex-swsh/buizel/,['water'],Sea Weasel Pokémon,0.7,29.5,190Legends235,55,65,35,60,30,85
+419,Floatzel,https://www.serebii.net/pokedex-swsh/floatzel/,['water'],Sea Weasel Pokémon,1.1,33.5,75Legends135,85,105,55,85,50,115
+420,Cherubi,https://www.serebii.net/pokedex-swsh/cherubi/,['grass'],Cherry Pokémon,0.4,3.3,190Legends235,45,35,45,62,53,35
+421,Cherrim,https://www.serebii.net/pokedex-swsh/cherrim/,['grass'],Blossom Pokémon,0.5,9.3,75Legends135,70,60,70,87,78,85
+422,Shellos,https://www.serebii.net/pokedex-swsh/shellos/,['water'],Sea Slug Pokémon,0.3,6.3,190Legends235,76,48,48,57,62,34
+423,Gastrodon,https://www.serebii.net/pokedex-swsh/gastrodon/,"['water', 'ground']",Sea Slug Pokémon,0.9,29.9,75Legends135,111,83,68,92,82,39
+424,Ambipom,https://www.serebii.net/pokedex-swsh/ambipom/,['normal'],Long Tail Pokémon,1.2,20.3,45Legends135,75,100,66,60,66,115
+425,Drifloon,https://www.serebii.net/pokedex-swsh/drifloon/,"['ghost', 'flying']",Balloon Pokémon,0.4,1.2,125Legends235,90,50,34,60,44,70
+426,Drifblim,https://www.serebii.net/pokedex-swsh/drifblim/,"['ghost', 'flying']",Blimp Pokémon,1.2,15.0,60Legends135,150,80,44,90,54,80
+427,Buneary,https://www.serebii.net/pokedex-swsh/buneary/,['normal'],Rabbit Pokémon,0.4,5.5,190Legends235,55,66,44,44,56,85
+428,Lopunny,https://www.serebii.net/pokedex-swsh/lopunny/,['normal'],Rabbit Pokémon,1.2,33.3,60Legends135,65,76,84,54,96,105
+429,Mismagius,https://www.serebii.net/pokedex-swsh/mismagius/,['ghost'],Magical Pokémon,0.9,4.4,45Legends135,60,60,60,105,105,105
+430,Honchkrow,https://www.serebii.net/pokedex-swsh/honchkrow/,"['dark', 'flying']",Big Boss Pokémon,0.9,27.3,30Legends135,100,125,52,105,52,71
+431,Glameow,https://www.serebii.net/pokedex-swsh/glameow/,['normal'],Catty Pokémon,0.5,3.9,190Legends255,49,55,42,42,37,85
+432,Purugly,https://www.serebii.net/pokedex-swsh/purugly/,['normal'],Tiger Cat Pokémon,0.8,43.8,75Legends155,71,82,64,64,59,112
+433,Chingling,https://www.serebii.net/pokedex-swsh/chingling/,['psychic'],Bell Pokémon,0.2,0.6,120Legends235,45,30,50,65,50,45
+434,Stunky,https://www.serebii.net/pokedex-swsh/stunky/,"['poison', 'dark']",Skunk Pokémon,0.4,19.2,225Legends235,63,63,47,41,41,74
+435,Skuntank,https://www.serebii.net/pokedex-swsh/skuntank/,"['poison', 'dark']",Skunk Pokémon,1.0,38.0,60Legends135,103,93,67,71,61,84
+436,Bronzor,https://www.serebii.net/pokedex-swsh/bronzor/,"['steel', 'psychic']",Bronze Pokémon,0.5,60.5,255Legends235,57,24,86,24,86,23
+437,Bronzong,https://www.serebii.net/pokedex-swsh/bronzong/,"['steel', 'psychic']",Bronze Bell Pokémon,1.3,187.0,90Legends135,67,89,116,79,116,33
+438,Bonsly,https://www.serebii.net/pokedex-swsh/bonsly/,['rock'],Bonsai Pokémon,0.5,15.0,255Legends235,50,80,95,10,45,10
+Mime,Jr.,https://www.serebii.net/pokedex-swsh/mimejr./,"['psychic', 'fairy']",Mime Pokémon,0.6,13.0,145Legends235,20,25,45,70,90,60
+440,Happiny,https://www.serebii.net/pokedex-swsh/happiny/,['normal'],Playhouse Pokémon,0.6,24.4,130Legends205,100,5,5,15,65,30
+441,Chatot,https://www.serebii.net/pokedex-swsh/chatot/,"['normal', 'flying']",Music Note Pokémon,0.5,1.9,30Legends125,76,65,45,92,42,91
+442,Spiritomb,https://www.serebii.net/pokedex-swsh/spiritomb/,"['ghost', 'dark']",Forbidden Pokémon,1.0,108.0,100Legends65,50,92,108,92,108,35
+443,Gible,https://www.serebii.net/pokedex-swsh/gible/,"['dragon', 'ground']",Land Shark Pokémon,0.7,20.5,45Legends205,58,70,45,40,45,42
+444,Gabite,https://www.serebii.net/pokedex-swsh/gabite/,"['dragon', 'ground']",Cave Pokémon,1.4,56.0,45Legends105,68,90,65,50,55,82
+445,Garchomp,https://www.serebii.net/pokedex-swsh/garchomp/,"['dragon', 'ground']",Mach Pokémon,1.9,95.0,45Legends55,108,130,95,80,85,102
+446,Munchlax,https://www.serebii.net/pokedex-swsh/munchlax/,['normal'],Big Eater Pokémon,0.6,105.0,50Legends255,135,85,40,40,85,5
+447,Riolu,https://www.serebii.net/pokedex-swsh/riolu/,['fighting'],Emanation Pokémon,0.7,20.2,75Legends215,40,70,40,35,40,60
+448,Lucario,https://www.serebii.net/pokedex-swsh/lucario/,"['fighting', 'steel']",Aura Pokémon,1.2,54.0,45Legends115,70,110,70,115,70,90
+449,Hippopotas,https://www.serebii.net/pokedex-swsh/hippopotas/,['ground'],Hippo Pokémon,0.8,49.5,140Legends235,68,72,78,38,42,32
+450,Hippowdon,https://www.serebii.net/pokedex-swsh/hippowdon/,['ground'],Heavyweight Pokémon,2.0,300.0,60Legends135,108,112,118,68,72,47
+451,Skorupi,https://www.serebii.net/pokedex-swsh/skorupi/,"['poison', 'bug']",Scorpion Pokémon,0.8,12.0,120Legends235,40,50,90,30,55,65
+452,Drapion,https://www.serebii.net/pokedex-swsh/drapion/,"['poison', 'dark']",Ogre Scorp Pokémon,1.3,61.5,45Legends135,70,90,110,60,75,95
+453,Croagunk,https://www.serebii.net/pokedex-swsh/croagunk/,"['poison', 'fighting']",Toxic Mouth Pokémon,0.7,23.0,140Legends235,48,61,40,61,40,50
+454,Toxicroak,https://www.serebii.net/pokedex-swsh/toxicroak/,"['poison', 'fighting']",Toxic Mouth Pokémon,1.3,44.4,75Legends135,83,106,65,86,65,85
+455,Carnivine,https://www.serebii.net/pokedex-swsh/carnivine/,['grass'],Bug Catcher Pokémon,1.4,17.28,200Legends185,74,100,72,90,72,46
+456,Finneon,https://www.serebii.net/pokedex-swsh/finneon/,['water'],Wing Fish Pokémon,0.4,4.48,190Legends235,49,49,56,49,61,66
+457,Lumineon,https://www.serebii.net/pokedex-swsh/lumineon/,['water'],Neon Pokémon,1.2,15.36,75Legends135,69,69,76,69,86,91
+458,Mantyke,https://www.serebii.net/pokedex-swsh/mantyke/,"['water', 'flying']",Kite Pokémon,1.0,65.0,25Legends235,45,20,50,60,120,50
+459,Snover,https://www.serebii.net/pokedex-swsh/snover/,"['grass', 'ice']",Frosted Tree Pokémon,1.0,50.5,120Legends235,60,62,50,62,60,40
+460,Abomasnow,https://www.serebii.net/pokedex-swsh/abomasnow/,"['grass', 'ice']",Frosted Tree Pokémon,2.2,135.5,60Legends135,90,92,75,92,85,60
+461,Weavile,https://www.serebii.net/pokedex-swsh/weavile/,"['dark', 'ice']",Sharp Claw Pokémon,1.1,34.0,45Legends135,70,120,65,45,85,125
+462,Magnezone,https://www.serebii.net/pokedex-swsh/magnezone/,"['electric', 'steel']",Magnet Area Pokémon,1.2,180.0,30Legends75,70,70,115,130,90,60
+463,Lickilicky,https://www.serebii.net/pokedex-swsh/lickilicky/,['normal'],Licking Pokémon,1.7,140.0,30Legends135,110,85,95,80,95,50
+464,Rhyperior,https://www.serebii.net/pokedex-swsh/rhyperior/,"['ground', 'rock']",Drill Pokémon,2.4,282.8,30Legends75,115,140,130,55,55,40
+465,Tangrowth,https://www.serebii.net/pokedex-swsh/tangrowth/,['grass'],Vine Pokémon,2.0,128.6,30Legends135,100,100,125,110,50,50
+466,Electivire,https://www.serebii.net/pokedex-swsh/electivire/,['electric'],Thunderbolt Pokémon,1.8,138.6,30Legends75,75,123,67,95,85,95
+467,Magmortar,https://www.serebii.net/pokedex-swsh/magmortar/,['fire'],Blast Pokémon,1.6,68.0,30Legends75,75,95,67,125,95,83
+468,Togekiss,https://www.serebii.net/pokedex-swsh/togekiss/,"['fairy', 'flying']",Jubilee Pokémon,1.5,38.0,30Legends55,85,50,95,120,115,80
+469,Yanmega,https://www.serebii.net/pokedex-swsh/yanmega/,"['bug', 'flying']",Ogre Darner Pokémon,1.9,51.5,30Legends135,86,76,86,116,56,95
+470,Leafeon,https://www.serebii.net/pokedex-swsh/leafeon/,['grass'],Verdant Pokémon,1.0,25.5,45Legends115,65,110,130,60,65,95
+471,Glaceon,https://www.serebii.net/pokedex-swsh/glaceon/,['ice'],Fresh Snow Pokémon,0.8,25.9,45Legends115,65,60,110,130,95,65
+472,Gliscor,https://www.serebii.net/pokedex-swsh/gliscor/,"['ground', 'flying']",Fang Scorp Pokémon,1.6,42.5,30Legends135,75,95,125,45,75,95
+473,Mamoswine,https://www.serebii.net/pokedex-swsh/mamoswine/,"['ice', 'ground']",Twin Tusk Pokémon,2.5,291.0,50Legends75,110,130,80,70,60,80
+474,Porygon-Z,https://www.serebii.net/pokedex-swsh/porygon-z/,['normal'],Virtual Pokémon,0.9,34.0,30Legends55,85,80,70,135,75,90
+475,Gallade,https://www.serebii.net/pokedex-swsh/gallade/,"['psychic', 'fighting']",Blade Pokémon,1.6,52.0,45Legends75,68,125,65,65,115,80
+476,Probopass,https://www.serebii.net/pokedex-swsh/probopass/,"['rock', 'steel']",Compass Pokémon,1.4,217.6,60Legends135,60,55,145,75,150,40
+477,Dusknoir,https://www.serebii.net/pokedex-swsh/dusknoir/,['ghost'],Gripper Pokémon,2.2,106.6,45Legends75,45,100,135,65,135,45
+478,Froslass,https://www.serebii.net/pokedex-swsh/froslass/,"['ice', 'ghost']",Snow Land Pokémon,1.3,26.6,75Legends135,70,80,70,80,70,110
+479,Rotom,https://www.serebii.net/pokedex-swsh/rotom/,"['electric', 'ghost', 'electric', 'ice', 'electric', 'fire', 'electric', 'grass', 'electric', 'flying', 'electric', 'water']",Plasma Pokémon,0.3,0.3,45Legends85,50,50,77,95,77,91
+480,Uxie,https://www.serebii.net/pokedex-swsh/uxie/,['psychic'],Knowledge Pokémon,0.3,0.3,3Legends45,75,75,130,75,130,95
+481,Mesprit,https://www.serebii.net/pokedex-swsh/mesprit/,['psychic'],Emotion Pokémon,0.3,0.3,3Legends45,80,105,105,105,105,80
+482,Azelf,https://www.serebii.net/pokedex-swsh/azelf/,['psychic'],Willpower Pokémon,0.3,0.3,3Legends45,75,125,70,125,70,115
+483,Dialga,https://www.serebii.net/pokedex-swsh/dialga/,"['steel', 'dragon']",Temporal Pokémon,5.4,683.0,3Legends45,100,120,120,150,100,90
+484,Palkia,https://www.serebii.net/pokedex-swsh/palkia/,"['water', 'dragon']",Spatial Pokémon,4.2,336.0,3Legends45,90,120,100,150,120,100
+485,Heatran,https://www.serebii.net/pokedex-swsh/heatran/,"['fire', 'steel']",Lava Dome Pokémon,1.7,430.0,3Legends45,91,90,106,130,106,77
+486,Regigigas,https://www.serebii.net/pokedex-swsh/regigigas/,['normal'],Colossal Pokémon,3.7,420.0,3,110,160,110,80,110,100
+487,Giratina,https://www.serebii.net/pokedex-swsh/giratina/,"['ghost', 'dragon']",Renegade Pokémon,4.5,750.0,3Legends45,150,100,120,100,120,90
+488,Cresselia,https://www.serebii.net/pokedex-swsh/cresselia/,['psychic'],Lunar Pokémon,1.5,85.6,3Legends45,120,70,120,75,130,85
+489,Phione,https://www.serebii.net/pokedex-swsh/phione/,['water'],Sea Drifter Pokémon,0.4,3.1,30Legends3,80,80,80,80,80,80
+490,Manaphy,https://www.serebii.net/pokedex-swsh/manaphy/,['water'],Seafaring Pokémon,0.3,1.4,3,100,100,100,100,100,100
+491,Darkrai,https://www.serebii.net/pokedex-swsh/darkrai/,['dark'],Pitch-Black Pokémon,1.5,50.5,3Legends45,70,90,90,135,90,125
+492,Shaymin,https://www.serebii.net/pokedex-swsh/shaymin/,"['grass', 'grass', 'flying']",Gratitude Pokémon,0.2,2.1,45Legends3,100,100,100,100,100,100
+493,Arceus,https://www.serebii.net/pokedex-swsh/arceus/,['normal'],Alpha Pokémon,3.2,320,3,120,120,120,120,120,120
+494,Victini,https://www.serebii.net/pokedex-swsh/victini/,"['psychic', 'fire']",Victory Pokémon,0.4,4.0,3,100,100,100,100,100,100
+501,Oshawott,https://www.serebii.net/pokedex-swsh/oshawott/,['water'],Sea Otter Pokémon,0.5,5.9,45Legends205,55,55,45,63,45,45
+502,Dewott,https://www.serebii.net/pokedex-swsh/dewott/,['water'],Discipline Pokémon,0.8,24.5,45Legends105,75,75,60,83,60,60
+503,Samurott,https://www.serebii.net/pokedex-swsh/samurott/,"['water', 'water', 'dark']",Formidable Pokémon,1.5,94.6,45Legends55,90,108,80,100,65,85
+506,Lillipup,https://www.serebii.net/pokedex-swsh/lillipup/,['normal'],Puppy Pokémon,0.4,4.1,255,45,60,45,25,45,55
+507,Herdier,https://www.serebii.net/pokedex-swsh/herdier/,['normal'],Loyal Dog Pokémon,0.9,14.7,120,65,80,65,35,65,60
+508,Stoutland,https://www.serebii.net/pokedex-swsh/stoutland/,['normal'],Big-Hearted Pokémon,1.2,61.0,45,85,110,90,45,90,80
+509,Purrloin,https://www.serebii.net/pokedex-swsh/purrloin/,['dark'],Devious Pokémon,0.4,10.1,255,41,50,37,50,37,66
+510,Liepard,https://www.serebii.net/pokedex-swsh/liepard/,['dark'],Cruel Pokémon,1.1,37.5,90,64,88,50,88,50,106
+517,Munna,https://www.serebii.net/pokedex-swsh/munna/,['psychic'],Dream Eater Pokémon,0.6,23.3,190,76,25,45,67,55,24
+518,Musharna,https://www.serebii.net/pokedex-swsh/musharna/,['psychic'],Drowsing Pokémon,1.1,60.5,75,116,55,85,107,95,29
+519,Pidove,https://www.serebii.net/pokedex-swsh/pidove/,"['normal', 'flying']",Tiny Pigeon Pokémon,0.3,2.1,255,50,55,50,36,30,43
+520,Tranquill,https://www.serebii.net/pokedex-swsh/tranquill/,"['normal', 'flying']",Wild Pigeon Pokémon,0.6,15.0,120,62,77,62,50,42,65
+521,Unfezant,https://www.serebii.net/pokedex-swsh/unfezant/,"['normal', 'flying']",Proud Pokémon,1.2,29.0,45,80,115,80,65,55,93
+524,Roggenrola,https://www.serebii.net/pokedex-swsh/roggenrola/,['rock'],Mantle Pokémon,0.4,18.0,255,55,75,85,25,25,15
+525,Boldore,https://www.serebii.net/pokedex-swsh/boldore/,['rock'],Ore Pokémon,0.9,102.0,120,70,105,105,50,40,20
+526,Gigalith,https://www.serebii.net/pokedex-swsh/gigalith/,['rock'],Compressed Pokémon,1.7,260.0,45,85,135,130,60,80,25
+527,Woobat,https://www.serebii.net/pokedex-swsh/woobat/,"['psychic', 'flying']",Bat Pokémon,0.4,2.1,190,65,45,43,55,43,72
+528,Swoobat,https://www.serebii.net/pokedex-swsh/swoobat/,"['psychic', 'flying']",Courting Pokémon,0.9,10.5,45,67,57,55,77,55,114
+529,Drilbur,https://www.serebii.net/pokedex-swsh/drilbur/,['ground'],Mole Pokémon,0.3,8.5,120,60,85,40,30,45,68
+530,Excadrill,https://www.serebii.net/pokedex-swsh/excadrill/,"['ground', 'steel']",Subterrene Pokémon,0.7,40.4,60,110,135,60,50,65,88
+531,Audino,https://www.serebii.net/pokedex-swsh/audino/,['normal'],Hearing Pokémon,1.1,31.0,255,103,60,86,60,86,50
+532,Timburr,https://www.serebii.net/pokedex-swsh/timburr/,['fighting'],Muscular Pokémon,0.6,12.5,180,75,80,55,25,35,35
+533,Gurdurr,https://www.serebii.net/pokedex-swsh/gurdurr/,['fighting'],Muscular Pokémon,1.2,40.0,90,85,105,85,40,50,40
+534,Conkeldurr,https://www.serebii.net/pokedex-swsh/conkeldurr/,['fighting'],Muscular Pokémon,1.4,87.0,45,105,140,95,55,65,45
+535,Tympole,https://www.serebii.net/pokedex-swsh/tympole/,['water'],Tadpole Pokémon,0.5,4.5,255,50,50,40,50,40,64
+536,Palpitoad,https://www.serebii.net/pokedex-swsh/palpitoad/,"['water', 'ground']",Vibration Pokémon,0.8,17.0,120,75,65,55,65,55,69
+537,Seismitoad,https://www.serebii.net/pokedex-swsh/seismitoad/,"['water', 'ground']",Vibration Pokémon,1.5,62.0,45,105,95,75,85,75,74
+538,Throh,https://www.serebii.net/pokedex-swsh/throh/,['fighting'],Judo Pokémon,1.3,55.5,45,120,100,85,30,85,45
+539,Sawk,https://www.serebii.net/pokedex-swsh/sawk/,['fighting'],Karate Pokémon,1.4,51.0,45,75,125,75,30,75,85
+543,Venipede,https://www.serebii.net/pokedex-swsh/venipede/,"['bug', 'poison']",Centipede Pokémon,0.4,5.3,255,30,45,59,30,39,57
+544,Whirlipede,https://www.serebii.net/pokedex-swsh/whirlipede/,"['bug', 'poison']",Curlipede Pokémon,1.2,58.5,120,40,55,99,40,79,47
+545,Scolipede,https://www.serebii.net/pokedex-swsh/scolipede/,"['bug', 'poison']",Megapede Pokémon,2.5,200.5,45,60,100,89,55,69,112
+546,Cottonee,https://www.serebii.net/pokedex-swsh/cottonee/,"['grass', 'fairy']",Cotton Puff Pokémon,0.3,0.6,190,40,27,60,37,50,66
+547,Whimsicott,https://www.serebii.net/pokedex-swsh/whimsicott/,"['grass', 'fairy']",Windveiled Pokémon,0.7,6.6,75,60,67,85,77,75,116
+548,Petilil,https://www.serebii.net/pokedex-swsh/petilil/,['grass'],Bulb Pokémon,0.5,6.6,190Legends235,45,35,50,70,50,30
+549,Lilligant,https://www.serebii.net/pokedex-swsh/lilligant/,"['grass', 'grass', 'fighting']",Flowering Pokémon,1.1,16.3,75Legends135,70,60,75,110,75,90
+550,Basculin,https://www.serebii.net/pokedex-swsh/basculin/,['water'],Hostile Pokémon,1.0,18.0,25Legends,70,92,65,80,55,98
+551,Sandile,https://www.serebii.net/pokedex-swsh/sandile/,"['ground', 'dark']",Desert Croc Pokémon,0.7,15.2,180,50,72,35,35,35,65
+552,Krokorok,https://www.serebii.net/pokedex-swsh/krokorok/,"['ground', 'dark']",Desert Croc Pokémon,1.0,33.4,90,60,82,45,45,45,74
+553,Krookodile,https://www.serebii.net/pokedex-swsh/krookodile/,"['ground', 'dark']",Intimidation Pokémon,1.5,96.3,45,95,117,80,65,70,92
+554,Darumaka,https://www.serebii.net/pokedex-swsh/darumaka/,"['fire', 'ice']",Zen Charm Pokémon,0.6,37.5,120,70,90,45,15,45,50
+555,Darmanitan,https://www.serebii.net/pokedex-swsh/darmanitan/,"['fire', 'fire', 'psychic', 'ice', 'ice', 'fire']",Blazing Pokémon (Unovan)Zen Charm Pokémon (Galarian),1.3,92.9,60,105,140,55,30,55,95
+556,Maractus,https://www.serebii.net/pokedex-swsh/maractus/,['grass'],Cactus Pokémon,1.0,28.0,255,75,86,67,106,67,60
+557,Dwebble,https://www.serebii.net/pokedex-swsh/dwebble/,"['bug', 'rock']",Rock Inn Pokémon,0.3,14.5,190,50,65,85,35,35,55
+558,Crustle,https://www.serebii.net/pokedex-swsh/crustle/,"['bug', 'rock']",Stone Home Pokémon,1.4,200.0,75,70,105,125,65,75,45
+559,Scraggy,https://www.serebii.net/pokedex-swsh/scraggy/,"['dark', 'fighting']",Shedding Pokémon,0.6,11.8,180,50,75,70,35,70,48
+560,Scrafty,https://www.serebii.net/pokedex-swsh/scrafty/,"['dark', 'fighting']",Hoodlum Pokémon,1.1,30.0,90,65,90,115,45,115,58
+561,Sigilyph,https://www.serebii.net/pokedex-swsh/sigilyph/,"['psychic', 'flying']",Avianoid Pokémon,1.4,14.0,45,72,58,80,103,80,97
+562,Yamask,https://www.serebii.net/pokedex-swsh/yamask/,"['ghost', 'ground', 'ghost']",Spirit Pokémon,0.5,1.5,190,38,30,85,55,65,30
+563,Cofagrigus,https://www.serebii.net/pokedex-swsh/cofagrigus/,['ghost'],Coffin Pokémon,1.7,76.5,90,58,50,145,95,105,30
+564,Tirtouga,https://www.serebii.net/pokedex-swsh/tirtouga/,"['water', 'rock']",Prototurtle Pokémon,0.7,16.5,45,54,78,103,53,45,22
+565,Carracosta,https://www.serebii.net/pokedex-swsh/carracosta/,"['water', 'rock']",Prototurtle Pokémon,1.2,81.0,45,74,108,133,83,65,32
+566,Archen,https://www.serebii.net/pokedex-swsh/archen/,"['rock', 'flying']",First Bird Pokémon,0.5,9.5,45,55,112,45,74,45,70
+567,Archeops,https://www.serebii.net/pokedex-swsh/archeops/,"['rock', 'flying']",First Bird Pokémon,1.4,32.0,45,75,140,65,112,65,110
+568,Trubbish,https://www.serebii.net/pokedex-swsh/trubbish/,['poison'],Trash Bag Pokémon,0.6,31.0,190,50,50,62,40,62,65
+569,Garbodor,https://www.serebii.net/pokedex-swsh/garbodor/,['poison'],Trash Heap Pokémon,1.9,107.3,60,80,95,82,60,82,75
+570,Zorua,https://www.serebii.net/pokedex-swsh/zorua/,"['dark', 'normal', 'ghost']",Tricky Fox Pokémon (Unovan)Spiteful Pokémon (Hisuian),0.7,12.5,75Legends215,40,65,40,80,40,65
+571,Zoroark,https://www.serebii.net/pokedex-swsh/zoroark/,"['dark', 'normal', 'ghost']",Illusion Fox Pokémon (Unovan)Baneful Pokémon (Hisuian),1.6,81.1,45Legends115,60,105,60,120,60,105
+572,Minccino,https://www.serebii.net/pokedex-swsh/minccino/,['normal'],Chinchilla Pokémon,0.4,5.8,255,55,50,40,40,40,75
+573,Cinccino,https://www.serebii.net/pokedex-swsh/cinccino/,['normal'],Scarf Pokémon,0.5,7.5,60,75,95,60,65,60,115
+574,Gothita,https://www.serebii.net/pokedex-swsh/gothita/,['psychic'],Fixation Pokémon,0.4,5.8,200,45,30,50,55,65,45
+575,Gothorita,https://www.serebii.net/pokedex-swsh/gothorita/,['psychic'],Manipulate Pokémon,0.7,18.0,100,60,45,70,75,85,55
+576,Gothitelle,https://www.serebii.net/pokedex-swsh/gothitelle/,['psychic'],Astral Body Pokémon,1.5,44.0,50,70,55,95,95,110,65
+577,Solosis,https://www.serebii.net/pokedex-swsh/solosis/,['psychic'],Cell Pokémon,0.3,1.0,200,45,30,40,105,50,20
+578,Duosion,https://www.serebii.net/pokedex-swsh/duosion/,['psychic'],Mitosis Pokémon,0.6,8.0,100,65,40,50,125,60,30
+579,Reuniclus,https://www.serebii.net/pokedex-swsh/reuniclus/,['psychic'],Multiplying Pokémon,1.0,20.1,50,110,65,75,125,85,30
+582,Vanillite,https://www.serebii.net/pokedex-swsh/vanillite/,['ice'],Fresh Snow Pokémon,0.4,5.7,255,36,50,50,65,60,44
+583,Vanillish,https://www.serebii.net/pokedex-swsh/vanillish/,['ice'],Icy Snow Pokémon,1.1,41.0,120,51,65,65,80,75,59
+584,Vanilluxe,https://www.serebii.net/pokedex-swsh/vanilluxe/,['ice'],Snowstorm Pokémon,1.3,57.5,45,71,95,85,110,95,79
+587,Emolga,https://www.serebii.net/pokedex-swsh/emolga/,"['electric', 'flying']",Sky Squirrel Pokémon,0.4,5.0,200,55,75,60,75,60,103
+588,Karrablast,https://www.serebii.net/pokedex-swsh/karrablast/,['bug'],Clamping Pokémon,0.5,5.9,200,50,75,45,40,45,60
+589,Escavalier,https://www.serebii.net/pokedex-swsh/escavalier/,"['bug', 'steel']",Cavalry Pokémon,1.0,33.0,75,70,135,105,60,105,20
+590,Foongus,https://www.serebii.net/pokedex-swsh/foongus/,"['grass', 'poison']",Mushroom Pokémon,0.2,1.0,190,69,55,45,55,55,15
+591,Amoonguss,https://www.serebii.net/pokedex-swsh/amoonguss/,"['grass', 'poison']",Mushroom Pokémon,0.6,10.5,75,114,85,70,85,80,30
+592,Frillish,https://www.serebii.net/pokedex-swsh/frillish/,"['water', 'ghost']",Floating Pokémon,1.2,33.0,190,55,40,50,65,85,40
+593,Jellicent,https://www.serebii.net/pokedex-swsh/jellicent/,"['water', 'ghost']",Floating Pokémon,2.2,135.0,60,100,60,70,85,105,60
+595,Joltik,https://www.serebii.net/pokedex-swsh/joltik/,"['bug', 'electric']",Attaching Pokémon,0.1,0.6,190,50,47,50,57,50,65
+596,Galvantula,https://www.serebii.net/pokedex-swsh/galvantula/,"['bug', 'electric']",EleSpider Pokémon,0.8,14.3,75,70,77,60,97,60,108
+597,Ferroseed,https://www.serebii.net/pokedex-swsh/ferroseed/,"['grass', 'steel']",Thorn Seed Pokémon,0.6,18.8,255,44,50,91,24,86,10
+598,Ferrothorn,https://www.serebii.net/pokedex-swsh/ferrothorn/,"['grass', 'steel']",Thorn Pod Pokémon,1.0,110.0,90,74,94,131,54,116,20
+599,Klink,https://www.serebii.net/pokedex-swsh/klink/,['steel'],Gear Pokémon,0.3,21.0,130,40,55,70,45,60,30
+600,Klang,https://www.serebii.net/pokedex-swsh/klang/,['steel'],Gear Pokémon,0.6,51.0,60,60,80,95,70,85,50
+601,Klinklang,https://www.serebii.net/pokedex-swsh/klinklang/,['steel'],Gear Pokémon,0.6,81.0,30,60,100,115,70,85,90
+605,Elgyem,https://www.serebii.net/pokedex-swsh/elgyem/,['psychic'],Cerebral Pokémon,0.5,9.0,255,55,55,55,85,55,30
+606,Beheeyem,https://www.serebii.net/pokedex-swsh/beheeyem/,['psychic'],Cerebral Pokémon,1.0,34.5,90,75,75,75,125,95,40
+607,Litwick,https://www.serebii.net/pokedex-swsh/litwick/,"['ghost', 'fire']",Candle Pokémon,0.3,3.1,190,50,30,55,65,55,20
+608,Lampent,https://www.serebii.net/pokedex-swsh/lampent/,"['ghost', 'fire']",Lamp Pokémon,0.6,13.0,90,60,40,60,95,60,55
+609,Chandelure,https://www.serebii.net/pokedex-swsh/chandelure/,"['ghost', 'fire']",Luring Pokémon,1.0,34.3,45,60,55,90,145,90,80
+610,Axew,https://www.serebii.net/pokedex-swsh/axew/,['dragon'],Tusk Pokémon,0.6,18.0,75,46,87,60,30,40,57
+611,Fraxure,https://www.serebii.net/pokedex-swsh/fraxure/,['dragon'],Axe Jaw Pokémon,1.0,36.0,60,66,117,70,40,50,67
+612,Haxorus,https://www.serebii.net/pokedex-swsh/haxorus/,['dragon'],Axe Jaw Pokémon,1.8,105.5,45,76,147,90,60,70,97
+613,Cubchoo,https://www.serebii.net/pokedex-swsh/cubchoo/,['ice'],Chill Pokémon,0.5,8.5,120,55,70,40,60,40,40
+614,Beartic,https://www.serebii.net/pokedex-swsh/beartic/,['ice'],Freezing Pokémon,2.6,260.0,60,95,130,80,70,80,50
+615,Cryogonal,https://www.serebii.net/pokedex-swsh/cryogonal/,['ice'],Crystallizing Pokémon,1.1,148.0,25,80,50,50,95,135,105
+616,Shelmet,https://www.serebii.net/pokedex-swsh/shelmet/,['bug'],Snail Pokémon,0.4,7.7,200,50,40,85,40,65,25
+617,Accelgor,https://www.serebii.net/pokedex-swsh/accelgor/,['bug'],Shell Out Pokémon,0.8,25.3,75,80,70,40,100,60,145
+618,Stunfisk,https://www.serebii.net/pokedex-swsh/stunfisk/,"['ground', 'electric', 'ground', 'steel']",Trap Pokémon,0.7,11.0,75,109,66,84,81,99,32
+619,Mienfoo,https://www.serebii.net/pokedex-swsh/mienfoo/,['fighting'],Martial Arts Pokémon,0.9,20.0,180,45,85,50,55,50,65
+620,Mienshao,https://www.serebii.net/pokedex-swsh/mienshao/,['fighting'],Martial Arts Pokémon,1.4,35.5,45,65,125,60,95,60,105
+621,Druddigon,https://www.serebii.net/pokedex-swsh/druddigon/,['dragon'],Cave Pokémon,1.6,139.0,45,77,120,90,60,90,48
+622,Golett,https://www.serebii.net/pokedex-swsh/golett/,"['ground', 'ghost']",Automaton Pokémon,1.0,92.0,190,59,74,50,35,50,35
+623,Golurk,https://www.serebii.net/pokedex-swsh/golurk/,"['ground', 'ghost']",Automaton Pokémon,2.8,330.0,90,89,124,80,55,80,55
+624,Pawniard,https://www.serebii.net/pokedex-swsh/pawniard/,"['dark', 'steel']",Sharp Blade Pokémon,0.5,10.2,120,45,85,70,40,40,60
+625,Bisharp,https://www.serebii.net/pokedex-swsh/bisharp/,"['dark', 'steel']",Sword Blade Pokémon,1.6,70.0,45,65,125,100,60,70,70
+626,Bouffalant,https://www.serebii.net/pokedex-swsh/bouffalant/,['normal'],Bash Buffalo Pokémon,1.6,94.6,45,95,110,95,40,95,55
+627,Rufflet,https://www.serebii.net/pokedex-swsh/rufflet/,"['normal', 'flying']",Eaglet Pokémon,0.5,10.5,190Legends235,70,83,50,37,50,60
+628,Braviary,https://www.serebii.net/pokedex-swsh/braviary/,"['normal', 'flying', 'psychic', 'flying']",Valiant Pokémon (Unovan) Battle Cry Pokémon (Hisuian),1.5,41.0,60Legends135,100,123,75,57,75,80
+629,Vullaby,https://www.serebii.net/pokedex-swsh/vullaby/,"['dark', 'flying']",Diapered Pokémon,0.5,9.0,190,70,55,75,45,65,60
+630,Mandibuzz,https://www.serebii.net/pokedex-swsh/mandibuzz/,"['dark', 'flying']",Bone Vulture Pokémon,1.2,39.5,60,110,65,105,55,95,80
+631,Heatmor,https://www.serebii.net/pokedex-swsh/heatmor/,['fire'],Anteater Pokémon,1.4,58.0,90,85,97,66,105,66,65
+632,Durant,https://www.serebii.net/pokedex-swsh/durant/,"['bug', 'steel']",Iron Ant Pokémon,0.3,33.0,90,58,109,112,48,48,109
+633,Deino,https://www.serebii.net/pokedex-swsh/deino/,"['dark', 'dragon']",Irate Pokémon,0.8,17.3,45,52,65,50,45,50,38
+634,Zweilous,https://www.serebii.net/pokedex-swsh/zweilous/,"['dark', 'dragon']",Hostile Pokémon,1.4,50.0,45,72,85,70,65,70,58
+635,Hydreigon,https://www.serebii.net/pokedex-swsh/hydreigon/,"['dark', 'dragon']",Brutal Pokémon,1.8,160.0,45,92,105,90,125,90,98
+636,Larvesta,https://www.serebii.net/pokedex-swsh/larvesta/,"['bug', 'fire']",Torch Pokémon,1.1,28.8,45,55,85,55,50,55,60
+637,Volcarona,https://www.serebii.net/pokedex-swsh/volcarona/,"['bug', 'fire']",Sun Pokémon,1.6,46.0,15,85,60,65,135,105,100
+638,Cobalion,https://www.serebii.net/pokedex-swsh/cobalion/,"['steel', 'fighting']",Iron Will Pokémon,2.1,250.0,3,91,90,129,90,72,108
+639,Terrakion,https://www.serebii.net/pokedex-swsh/terrakion/,"['rock', 'fighting']",Cavern Pokémon,1.9,260.0,3,91,129,90,72,90,108
+640,Virizion,https://www.serebii.net/pokedex-swsh/virizion/,"['grass', 'fighting']",Grassland Pokémon,2.0,200.0,3,91,90,72,90,129,108
+641,Tornadus,https://www.serebii.net/pokedex-swsh/tornadus/,['flying'],Cyclone Pokémon,1.5,63.0,3,79,115,70,125,80,111
+642,Thundurus,https://www.serebii.net/pokedex-swsh/thundurus/,"['electric', 'flying']",Bolt Strike Pokémon,1.5,61.0,3,79,115,70,125,80,111
+643,Reshiram,https://www.serebii.net/pokedex-swsh/reshiram/,"['dragon', 'fire']",Vast White Pokémon,3.2,330.0,3,100,120,100,150,120,90
+644,Zekrom,https://www.serebii.net/pokedex-swsh/zekrom/,"['dragon', 'electric']",Deep Black Pokémon,2.9,345.0,3,100,150,120,120,100,90
+645,Landorus,https://www.serebii.net/pokedex-swsh/landorus/,"['ground', 'flying']",Abundance Pokémon,1.5,68.0,3,89,125,90,115,80,101
+646,Kyurem,https://www.serebii.net/pokedex-swsh/kyurem/,"['dragon', 'ice']",Boundary Pokémon,3.0,325.0,3,125,130,90,130,90,95
+647,Keldeo,https://www.serebii.net/pokedex-swsh/keldeo/,"['water', 'fighting']",Colt Pokémon,1.4,48.5,3,91,72,90,129,90,108
+649,Genesect,https://www.serebii.net/pokedex-swsh/genesect/,"['bug', 'steel']",Paleozoic Pokémon,1.5,82.5,3,71,120,95,120,95,99
+659,Bunnelby,https://www.serebii.net/pokedex-swsh/bunnelby/,['normal'],Digging Pokémon,0.4,5.0,255,38,36,38,32,36,57
+660,Diggersby,https://www.serebii.net/pokedex-swsh/diggersby/,"['normal', 'ground']",Digging Pokémon,1.0,42.4,127,85,56,77,50,77,78
+661,Fletchling,https://www.serebii.net/pokedex-swsh/fletchling/,"['normal', 'flying']",Tiny Robin Pokémon,0.3,1.7,255,45,50,43,40,38,62
+662,Fletchinder,https://www.serebii.net/pokedex-swsh/fletchinder/,"['fire', 'flying']",Ember Pokémon,0.7,16.0,120,62,73,55,56,52,84
+663,Talonflame,https://www.serebii.net/pokedex-swsh/talonflame/,"['fire', 'flying']",Scorching Pokémon,1.2,24.5,45,78,81,71,74,69,126
+674,Pancham,https://www.serebii.net/pokedex-swsh/pancham/,['fighting'],Playful Pokémon,0.6,8.0,220,67,82,62,46,48,43
+675,Pangoro,https://www.serebii.net/pokedex-swsh/pangoro/,"['fighting', 'dark']",Daunting Pokémon,2.1,136.0,65,95,124,78,69,71,58
+677,Espurr,https://www.serebii.net/pokedex-swsh/espurr/,['psychic'],Restraint Pokémon,0.3,3.5,190,62,48,54,63,60,68
+678,Meowstic,https://www.serebii.net/pokedex-swsh/meowstic/,['psychic'],Constraint Pokémon,0.6,8.5,75,74,48,76,83,81,104
+679,Honedge,https://www.serebii.net/pokedex-swsh/honedge/,"['steel', 'ghost']",Sword Pokémon,0.8,2.0,180,45,80,100,35,37,28
+680,Doublade,https://www.serebii.net/pokedex-swsh/doublade/,"['steel', 'ghost']",Sword Pokémon,0.8,4.5,90,59,110,150,45,49,35
+681,Aegislash,https://www.serebii.net/pokedex-swsh/aegislash/,"['steel', 'ghost']",Royal Sword Pokémon,1.7,53.0,45,60,50,140,50,140,60
+682,Spritzee,https://www.serebii.net/pokedex-swsh/spritzee/,['fairy'],Perfume Pokémon,0.2,0.5,200,78,52,60,63,65,23
+683,Aromatisse,https://www.serebii.net/pokedex-swsh/aromatisse/,['fairy'],Fragrance Pokémon,0.8,15.5,140,101,72,72,99,89,29
+684,Swirlix,https://www.serebii.net/pokedex-swsh/swirlix/,['fairy'],Cotton Candy Pokémon,0.4,3.5,200,62,48,66,59,57,49
+685,Slurpuff,https://www.serebii.net/pokedex-swsh/slurpuff/,['fairy'],Meringue Pokémon,0.8,5.0,140,82,80,86,85,75,72
+686,Inkay,https://www.serebii.net/pokedex-swsh/inkay/,"['dark', 'psychic']",Revolving Pokémon,0.4,3.5,190,53,54,53,37,46,45
+687,Malamar,https://www.serebii.net/pokedex-swsh/malamar/,"['dark', 'psychic']",Overturning Pokémon,1.5,47.0,80,86,92,88,68,75,73
+688,Binacle,https://www.serebii.net/pokedex-swsh/binacle/,"['rock', 'water']",Two-Handed Pokémon,0.5,31.0,120,42,52,67,39,56,50
+689,Barbaracle,https://www.serebii.net/pokedex-swsh/barbaracle/,"['rock', 'water']",Collective Pokémon,1.3,96.0,45,72,105,115,54,86,68
+690,Skrelp,https://www.serebii.net/pokedex-swsh/skrelp/,"['poison', 'water']",Mock Kelp Pokémon,0.5,7.3,225,50,60,60,60,60,30
+691,Dragalge,https://www.serebii.net/pokedex-swsh/dragalge/,"['poison', 'dragon']",Mock Kelp Pokémon,1.8,81.5,55,65,75,90,97,123,44
+692,Clauncher,https://www.serebii.net/pokedex-swsh/clauncher/,['water'],Water Gun Pokémon,0.5,8.3,225,50,53,62,58,63,44
+693,Clawitzer,https://www.serebii.net/pokedex-swsh/clawitzer/,['water'],Howitzer Pokémon,1.3,35.3,55,71,73,88,120,89,59
+694,Helioptile,https://www.serebii.net/pokedex-swsh/helioptile/,"['electric', 'normal']",Generator Pokémon,0.5,6.0,190,44,38,33,61,43,70
+695,Heliolisk,https://www.serebii.net/pokedex-swsh/heliolisk/,"['electric', 'normal']",Generator Pokémon,1.0,21.0,75,62,55,52,109,94,109
+696,Tyrunt,https://www.serebii.net/pokedex-swsh/tyrunt/,"['rock', 'dragon']",Royal Heir Pokémon,0.8,26.0,45,58,89,77,45,45,48
+697,Tyrantrum,https://www.serebii.net/pokedex-swsh/tyrantrum/,"['rock', 'dragon']",Despot Pokémon,2.5,270.0,45,82,121,119,69,59,71
+698,Amaura,https://www.serebii.net/pokedex-swsh/amaura/,"['rock', 'ice']",Tundra Pokémon,1.3,25.2,45,77,59,50,67,63,46
+699,Aurorus,https://www.serebii.net/pokedex-swsh/aurorus/,"['rock', 'ice']",Tundra Pokémon,2.7,225.0,45,123,77,72,99,92,58
+700,Sylveon,https://www.serebii.net/pokedex-swsh/sylveon/,['fairy'],Intertwining Pokémon,1.0,23.5,45Legends115,95,65,65,110,130,60
+701,Hawlucha,https://www.serebii.net/pokedex-swsh/hawlucha/,"['fighting', 'flying']",Wrestling Pokémon,0.8,21.5,100,78,92,75,74,63,118
+702,Dedenne,https://www.serebii.net/pokedex-swsh/dedenne/,"['electric', 'fairy']",Antenna Pokémon,0.2,2.2,180,67,58,57,81,67,101
+703,Carbink,https://www.serebii.net/pokedex-swsh/carbink/,"['rock', 'fairy']",Jewel Pokémon,0.3,5.7,60,50,50,150,50,150,50
+704,Goomy,https://www.serebii.net/pokedex-swsh/goomy/,['dragon'],Soft Tissue Pokémon,0.3,2.8,45Legends205,45,50,35,55,75,40
+705,Sliggoo,https://www.serebii.net/pokedex-swsh/sliggoo/,"['dragon', 'steel', 'dragon']",Soft Tissue Pokémon (Kalosian)Snail Pokémon (Hisuian),0.8,17.5,45Legends105,68,75,53,83,113,60
+706,Goodra,https://www.serebii.net/pokedex-swsh/goodra/,"['dragon', 'steel', 'dragon']",Dragon Pokémon (Kalosian)Shell Bunker Pokémon (Hisuian),2.0,150.5,45Legends55,90,100,70,110,150,80
+707,Klefki,https://www.serebii.net/pokedex-swsh/klefki/,"['steel', 'fairy']",Key Ring Pokémon,0.2,3.0,75,57,80,91,80,87,75
+708,Phantump,https://www.serebii.net/pokedex-swsh/phantump/,"['ghost', 'grass']",Stump Pokémon,0.4,7.0,120,43,70,48,50,60,38
+709,Trevenant,https://www.serebii.net/pokedex-swsh/trevenant/,"['ghost', 'grass']",Elder Tree Pokémon,1.5,71.0,60,85,110,76,65,82,56
+710,Pumpkaboo,https://www.serebii.net/pokedex-swsh/pumpkaboo/,"['ghost', 'grass']",Pumpkin Pokémon,0.4,5.0,120,49,66,70,44,55,51
+711,Gourgeist,https://www.serebii.net/pokedex-swsh/gourgeist/,"['ghost', 'grass']",Pumpkin Pokémon,0.9,12.5,60,65,90,122,58,75,84
+712,Bergmite,https://www.serebii.net/pokedex-swsh/bergmite/,['ice'],Ice Chunk Pokémon,1.0,99.5,190Legends235,55,69,85,32,35,28
+713,Avalugg,https://www.serebii.net/pokedex-swsh/avalugg/,"['ice', 'ice', 'rock']",Iceberg Pokémon,2.0,505.0,55Legends135,95,117,184,44,46,28
+714,Noibat,https://www.serebii.net/pokedex-swsh/noibat/,"['flying', 'dragon']",Sound Wave Pokémon,0.5,8.0,190,40,30,35,45,40,55
+715,Noivern,https://www.serebii.net/pokedex-swsh/noivern/,"['flying', 'dragon']",Sound Wave Pokémon,1.5,85.0,45,85,70,80,97,80,123
+716,Xerneas,https://www.serebii.net/pokedex-swsh/xerneas/,['fairy'],Life Pokémon,3.0,215.0,45,126,131,95,131,98,99
+717,Yveltal,https://www.serebii.net/pokedex-swsh/yveltal/,"['dark', 'flying']",Destruction Pokémon,5.8,203.0,45,126,131,95,131,98,99
+718,Zygarde,https://www.serebii.net/pokedex-swsh/zygarde/,"['dragon', 'ground']",Order Pokémon,5.0,305.0,3,108,100,121,81,95,95
+719,Diancie,https://www.serebii.net/pokedex-swsh/diancie/,"['rock', 'fairy']",Jewel Pokémon,0.7,8.8,3,50,100,150,100,150,50
+721,Volcanion,https://www.serebii.net/pokedex-swsh/volcanion/,"['fire', 'water']",Steam Pokémon,1.7,195.0,3,80,110,120,130,90,70
+722,Rowlet,https://www.serebii.net/pokedex-swsh/rowlet/,"['grass', 'flying']",Grass Quill Pokémon,0.3,1.5,45Legends205,68,55,55,50,50,42
+723,Dartrix,https://www.serebii.net/pokedex-swsh/dartrix/,"['grass', 'flying']",Blade Quill Pokémon,0.7,16.0,45Legends105,78,75,75,70,70,52
+724,Decidueye,https://www.serebii.net/pokedex-swsh/decidueye/,"['grass', 'ghost', 'grass', 'fighting']",Arrow Quill Pokémon,1.6,36.6,45Legends55,78,107,75,100,100,70
+725,Litten,https://www.serebii.net/pokedex-swsh/litten/,['fire'],Fire Cat Pokémon,0.4,4.3,45,45,65,40,60,40,70
+726,Torracat,https://www.serebii.net/pokedex-swsh/torracat/,['fire'],Fire Cat Pokémon,0.7,25.0,45,65,85,50,80,50,90
+727,Incineroar,https://www.serebii.net/pokedex-swsh/incineroar/,"['fire', 'dark']",Heel Pokémon,1.8,83.0,45,95,115,90,80,90,60
+728,Popplio,https://www.serebii.net/pokedex-swsh/popplio/,['water'],Sea Lion Pokémon,0.4,7.5,45,50,54,54,66,56,40
+729,Brionne,https://www.serebii.net/pokedex-swsh/brionne/,['water'],Pop Star Pokémon,0.6,17.5,45,60,69,69,91,81,50
+730,Primarina,https://www.serebii.net/pokedex-swsh/primarina/,"['water', 'fairy']",Soloist Pokémon,1.8,44.0,45,80,74,74,126,116,60
+736,Grubbin,https://www.serebii.net/pokedex-swsh/grubbin/,['bug'],Larva Pokémon,0.4,4.4,255,47,62,45,55,45,46
+737,Charjabug,https://www.serebii.net/pokedex-swsh/charjabug/,"['bug', 'electric']",Battery Pokémon,0.5,10.5,120,57,82,95,55,75,36
+738,Vikavolt,https://www.serebii.net/pokedex-swsh/vikavolt/,"['bug', 'electric']",Stag Beetle Pokémon,1.5,45.0,45,77,70,90,145,75,43
+742,Cutiefly,https://www.serebii.net/pokedex-swsh/cutiefly/,"['bug', 'fairy']",Bee Fly Pokémon,0.1,0.2,190,40,45,40,55,40,84
+743,Ribombee,https://www.serebii.net/pokedex-swsh/ribombee/,"['bug', 'fairy']",Bee Fly Pokémon,0.2,0.5,75,60,55,60,95,70,124
+744,Rockruff,https://www.serebii.net/pokedex-swsh/rockruff/,['rock'],Puppy Pokémon,0.5,9.2,190,45,65,40,30,40,60
+745,Lycanroc,https://www.serebii.net/pokedex-swsh/lycanroc/,['rock'],Wolf Pokémon,0.8,25.0,90,75,115,65,55,65,112
+746,Wishiwashi,https://www.serebii.net/pokedex-swsh/wishiwashi/,['water'],Small Fry Pokémon,0.2,0.3,60,45,20,20,25,25,40
+747,Mareanie,https://www.serebii.net/pokedex-swsh/mareanie/,"['poison', 'water']",Brutal Star Pokémon,0.4,8.0,190,50,53,62,43,52,45
+748,Toxapex,https://www.serebii.net/pokedex-swsh/toxapex/,"['poison', 'water']",Brutal Star Pokémon,0.7,14.5,75,50,63,152,53,142,35
+749,Mudbray,https://www.serebii.net/pokedex-swsh/mudbray/,['ground'],Donkey Pokémon,1.0,110.0,190,70,100,70,45,55,45
+750,Mudsdale,https://www.serebii.net/pokedex-swsh/mudsdale/,['ground'],Draft Horse Pokémon,2.5,920.0,60,100,125,100,55,85,35
+751,Dewpider,https://www.serebii.net/pokedex-swsh/dewpider/,"['water', 'bug']",Water Bubble Pokémon,0.3,4.0,200,38,40,52,40,72,27
+752,Araquanid,https://www.serebii.net/pokedex-swsh/araquanid/,"['water', 'bug']",Water Bubble Pokémon,1.8,82.0,100,68,70,92,50,132,42
+753,Fomantis,https://www.serebii.net/pokedex-swsh/fomantis/,['grass'],Sickle Grass Pokémon,0.3,1.5,190,40,55,35,50,35,35
+754,Lurantis,https://www.serebii.net/pokedex-swsh/lurantis/,['grass'],Bloom Sickle Pokémon,0.9,18.5,75,70,105,90,80,90,45
+755,Morelull,https://www.serebii.net/pokedex-swsh/morelull/,"['grass', 'fairy']",Illuminating Pokémon,0.2,1.5,190,40,35,55,65,75,15
+756,Shiinotic,https://www.serebii.net/pokedex-swsh/shiinotic/,"['grass', 'fairy']",Illuminating Pokémon,1.0,11.5,75,60,45,80,90,100,30
+757,Salandit,https://www.serebii.net/pokedex-swsh/salandit/,"['poison', 'fire']",Toxic Lizard Pokémon,0.6,4.8,120,48,44,40,71,40,77
+758,Salazzle,https://www.serebii.net/pokedex-swsh/salazzle/,"['poison', 'fire']",Toxic Lizard Pokémon,1.2,22.2,45,68,64,60,111,60,117
+759,Stufful,https://www.serebii.net/pokedex-swsh/stufful/,"['normal', 'fighting']",Flailing Pokémon,0.5,6.8,140,70,75,50,45,50,50
+760,Bewear,https://www.serebii.net/pokedex-swsh/bewear/,"['normal', 'fighting']",Strong Arm Pokémon,2.1,135.0,70,120,125,80,55,60,60
+761,Bounsweet,https://www.serebii.net/pokedex-swsh/bounsweet/,['grass'],Fruit Pokémon,0.3,3.2,235,42,30,38,30,38,32
+762,Steenee,https://www.serebii.net/pokedex-swsh/steenee/,['grass'],Fruit Pokémon,0.7,8.2,120,52,40,48,40,48,62
+763,Tsareena,https://www.serebii.net/pokedex-swsh/tsareena/,['grass'],Fruit Pokémon,1.2,21.4,45,72,120,98,50,98,72
+764,Comfey,https://www.serebii.net/pokedex-swsh/comfey/,['fairy'],Posy Picker Pokémon,0.1,0.3,60,51,52,90,82,110,100
+765,Oranguru,https://www.serebii.net/pokedex-swsh/oranguru/,"['normal', 'psychic']",Sage Pokémon,1.5,76.0,45,90,60,80,90,110,60
+766,Passimian,https://www.serebii.net/pokedex-swsh/passimian/,['fighting'],Teamwork Pokémon,2.0,82.8,45,100,120,90,40,60,80
+767,Wimpod,https://www.serebii.net/pokedex-swsh/wimpod/,"['bug', 'water']",Turn Tail Pokémon,0.5,12.0,90,25,35,40,20,30,80
+768,Golisopod,https://www.serebii.net/pokedex-swsh/golisopod/,"['bug', 'water']",Hard Scale Pokémon,2.0,108.0,45,75,125,140,60,90,40
+769,Sandygast,https://www.serebii.net/pokedex-swsh/sandygast/,"['ghost', 'ground']",Sand Heap Pokémon,0.5,70.0,140,55,55,80,70,45,15
+770,Palossand,https://www.serebii.net/pokedex-swsh/palossand/,"['ghost', 'ground']",Sand Castle Pokémon,1.3,250.0,60,85,75,110,100,75,35
+771,Pyukumuku,https://www.serebii.net/pokedex-swsh/pyukumuku/,['water'],Sea Cucumber Pokémon,0.3,1.2,60,55,60,130,30,130,5
+Type:,Null,https://www.serebii.net/pokedex-swsh/type:null/,['normal'],Synthetic Pokémon,1.9,120.5,3,95,95,95,95,95,59
+773,Silvally,https://www.serebii.net/pokedex-swsh/silvally/,['normal'],Synthetic Pokémon,2.3,100.5,3,95,95,95,95,95,95
+776,Turtonator,https://www.serebii.net/pokedex-swsh/turtonator/,"['fire', 'dragon']",Blast Turtle Pokémon,2.0,212.0,70,60,78,135,91,85,36
+777,Togedemaru,https://www.serebii.net/pokedex-swsh/togedemaru/,"['electric', 'steel']",Roly-Poly Pokémon,0.3,3.3,180,65,98,63,40,73,96
+778,Mimikyu,https://www.serebii.net/pokedex-swsh/mimikyu/,"['ghost', 'fairy']",Disguise Pokémon,0.2,0.7,45,55,90,80,50,105,96
+780,Drampa,https://www.serebii.net/pokedex-swsh/drampa/,"['normal', 'dragon']",Placid Pokémon,3.0,185.0,70,78,60,85,135,91,36
+781,Dhelmise,https://www.serebii.net/pokedex-swsh/dhelmise/,"['ghost', 'grass']",Sea Creeper Pokémon,3.9,210.0,25,70,131,100,86,90,40
+782,Jangmo-o,https://www.serebii.net/pokedex-swsh/jangmo-o/,['dragon'],Scaly Pokémon,0.6,29.7,45,45,55,65,45,45,45
+783,Hakamo-o,https://www.serebii.net/pokedex-swsh/hakamo-o/,"['dragon', 'fighting']",Scaly Pokémon,1.2,47.0,45,55,75,90,65,70,65
+784,Kommo-o,https://www.serebii.net/pokedex-swsh/kommo-o/,"['dragon', 'fighting']",Scaly Pokémon,1.6,78.2,45,75,110,125,100,105,85
+Tapu,Koko,https://www.serebii.net/pokedex-swsh/tapukoko/,"['electric', 'fairy']",Land Spirit Pokémon,1.8,20.5,3,70,115,85,95,75,130
+Tapu,Lele,https://www.serebii.net/pokedex-swsh/tapulele/,"['psychic', 'fairy']",Land Spirit Pokémon,1.2,18.6,3,70,85,75,130,115,95
+Tapu,Bulu,https://www.serebii.net/pokedex-swsh/tapubulu/,"['grass', 'fairy']",Land Spirit Pokémon,1.9,45.5,3,70,130,115,85,95,75
+Tapu,Fini,https://www.serebii.net/pokedex-swsh/tapufini/,"['water', 'fairy']",Land Spirit Pokémon,1.3,21.2,3,70,75,115,95,130,85
+789,Cosmog,https://www.serebii.net/pokedex-swsh/cosmog/,['psychic'],Nebula Pokémon,0.2,0.1,45,43,29,31,29,31,37
+790,Cosmoem,https://www.serebii.net/pokedex-swsh/cosmoem/,['psychic'],Protostar Pokémon,0.1,999.9,45,43,29,131,29,131,37
+791,Solgaleo,https://www.serebii.net/pokedex-swsh/solgaleo/,"['psychic', 'steel']",Sunne Pokémon,3.4,230.0,45,137,137,107,113,89,97
+792,Lunala,https://www.serebii.net/pokedex-swsh/lunala/,"['psychic', 'ghost']",Moone Pokémon,4.0,120.0,45,137,113,89,137,107,97
+793,Nihilego,https://www.serebii.net/pokedex-swsh/nihilego/,"['rock', 'poison']",Parasite Pokémon,1.2,55.5,45,109,53,47,127,131,103
+794,Buzzwole,https://www.serebii.net/pokedex-swsh/buzzwole/,"['bug', 'fighting']",Swollen Pokémon,2.4,333.6,45,107,139,139,53,53,79
+795,Pheromosa,https://www.serebii.net/pokedex-swsh/pheromosa/,"['bug', 'fighting']",Lissome Pokémon,1.8,25.0,45,71,137,37,137,37,151
+796,Xurkitree,https://www.serebii.net/pokedex-swsh/xurkitree/,['electric'],Glowing Pokémon,3.8,100.0,45,83,89,71,173,71,83
+797,Celesteela,https://www.serebii.net/pokedex-swsh/celesteela/,"['steel', 'flying']",Launch Pokémon,9.2,999.9,45,97,101,103,107,101,61
+798,Kartana,https://www.serebii.net/pokedex-swsh/kartana/,"['grass', 'steel']",Drawn Sword Pokémon,0.3,0.1,45,59,181,131,59,31,109
+799,Guzzlord,https://www.serebii.net/pokedex-swsh/guzzlord/,"['dark', 'dragon']",Junkivore Pokémon,5.5,888.0,45,223,101,53,97,53,43
+800,Necrozma,https://www.serebii.net/pokedex-swsh/necrozma/,"['psychic', 'psychic', 'steel', 'psychic', 'ghost']",Prism Pokémon,2.4,230.0,255,97,107,101,127,89,79
+801,Magearna,https://www.serebii.net/pokedex-swsh/magearna/,"['steel', 'fairy']",Artificial Pokémon,1.0,80.5,3,80,95,115,130,115,65
+802,Marshadow,https://www.serebii.net/pokedex-swsh/marshadow/,"['fighting', 'ghost']",Gloomdweller Pokémon,0.7,22.2,3,90,125,80,90,90,125
+803,Poipole,https://www.serebii.net/pokedex-swsh/poipole/,['poison'],Poison Pin Pokémon,0.6,1.8,45,67,73,67,73,67,73
+804,Naganadel,https://www.serebii.net/pokedex-swsh/naganadel/,"['poison', 'dragon']",Poison Pin Pokémon,3.6,150.0,45,73,73,73,127,73,121
+805,Stakataka,https://www.serebii.net/pokedex-swsh/stakataka/,"['rock', 'steel']",Rampart Pokémon,5.5,820.0,30,61,131,211,53,101,13
+806,Blacephalon,https://www.serebii.net/pokedex-swsh/blacephalon/,"['fire', 'ghost']",Fireworks Pokémon,1.8,13.0,30,53,127,53,151,79,107
+807,Zeraora,https://www.serebii.net/pokedex-swsh/zeraora/,['electric'],Thunderclap Pokémon,1.5,44.5,3,88,112,75,102,80,143
+808,Meltan,https://www.serebii.net/pokedex-swsh/meltan/,['steel'],Hex Nut Pokémon,0.2,8.0,3,46,65,65,55,35,34
+809,Melmetal,https://www.serebii.net/pokedex-swsh/melmetal/,['steel'],Hex Nut Pokémon,2.5,800.0,3,135,143,143,80,65,34
+810,Grookey,https://www.serebii.net/pokedex-swsh/grookey/,['grass'],Chimp Pokémon,0.3,5.0,45,50,65,50,40,40,65
+811,Thwackey,https://www.serebii.net/pokedex-swsh/thwackey/,['grass'],Beat Pokémon,0.7,14.0,45,70,85,70,55,60,80
+812,Rillaboom,https://www.serebii.net/pokedex-swsh/rillaboom/,['grass'],Drummer Pokémon,2.1,90.0,45,100,125,90,60,70,85
+813,Scorbunny,https://www.serebii.net/pokedex-swsh/scorbunny/,['fire'],Rabbit Pokémon,0.3,4.5,45,50,71,40,40,40,69
+814,Raboot,https://www.serebii.net/pokedex-swsh/raboot/,['fire'],Rabbit Pokémon,0.6,9.0,45,65,86,60,55,60,94
+815,Cinderace,https://www.serebii.net/pokedex-swsh/cinderace/,['fire'],Striker Pokémon,1.4,33.0,45,80,116,75,65,75,119
+816,Sobble,https://www.serebii.net/pokedex-swsh/sobble/,['water'],Water Lizard Pokémon,0.3,4.0,45,50,40,40,70,40,70
+817,Drizzile,https://www.serebii.net/pokedex-swsh/drizzile/,['water'],Water Lizard Pokémon,0.7,11.5,45,65,60,55,95,55,90
+818,Inteleon,https://www.serebii.net/pokedex-swsh/inteleon/,['water'],Secret Agent Pokémon,1.9,45.2,45,70,85,65,125,65,120
+819,Skwovet,https://www.serebii.net/pokedex-swsh/skwovet/,['normal'],Cheeky Pokémon,0.3,2.5,255,70,55,55,35,35,25
+820,Greedent,https://www.serebii.net/pokedex-swsh/greedent/,['normal'],Greedy Pokémon,0.6,6.0,90,120,95,95,55,75,20
+821,Rookidee,https://www.serebii.net/pokedex-swsh/rookidee/,['flying'],Tiny Bird Pokémon,0.2,1.8,255,38,47,35,33,35,57
+822,Corvisquire,https://www.serebii.net/pokedex-swsh/corvisquire/,['flying'],Raven Pokémon,0.8,16.0,120,68,67,55,43,55,77
+823,Corviknight,https://www.serebii.net/pokedex-swsh/corviknight/,"['flying', 'steel']",Raven Pokémon,2.2,75.0,45,98,87,105,53,85,67
+824,Blipbug,https://www.serebii.net/pokedex-swsh/blipbug/,['bug'],Larva Pokémon,0.4,8.0,255,25,20,20,25,45,45
+825,Dottler,https://www.serebii.net/pokedex-swsh/dottler/,"['bug', 'psychic']",Radome Pokémon,0.4,19.5,120,50,35,80,50,90,30
+826,Orbeetle,https://www.serebii.net/pokedex-swsh/orbeetle/,"['bug', 'psychic']",Seven Spot Pokémon,0.4,40.8,45,60,45,110,80,120,90
+827,Nickit,https://www.serebii.net/pokedex-swsh/nickit/,['dark'],Fox Pokémon,0.6,8.9,255,40,28,28,47,52,50
+828,Thievul,https://www.serebii.net/pokedex-swsh/thievul/,['dark'],Fox Pokémon,1.2,19.9,127,70,58,58,87,92,90
+829,Gossifleur,https://www.serebii.net/pokedex-swsh/gossifleur/,['grass'],Flowering Pokémon,0.4,2.2,190,40,40,60,40,60,10
+830,Eldegoss,https://www.serebii.net/pokedex-swsh/eldegoss/,['grass'],Cotton Bloom Pokémon,0.5,2.5,75,60,50,90,80,120,60
+831,Wooloo,https://www.serebii.net/pokedex-swsh/wooloo/,['normal'],Sheep Pokémon,0.6,6.0,255,42,40,55,40,45,48
+832,Dubwool,https://www.serebii.net/pokedex-swsh/dubwool/,['normal'],Sheep Pokémon,1.3,43.0,127,72,80,100,60,90,88
+833,Chewtle,https://www.serebii.net/pokedex-swsh/chewtle/,['water'],Snapping Pokémon,0.3,8.5,255,50,64,50,38,38,44
+834,Drednaw,https://www.serebii.net/pokedex-swsh/drednaw/,"['water', 'rock']",Bite Pokémon,1.0,115.5,75,90,115,90,48,68,74
+835,Yamper,https://www.serebii.net/pokedex-swsh/yamper/,['electric'],Puppy Pokémon,0.3,13.5,255,59,45,50,40,50,26
+836,Boltund,https://www.serebii.net/pokedex-swsh/boltund/,['electric'],Dog Pokémon,1.0,34.0,45,69,90,60,90,60,121
+837,Rolycoly,https://www.serebii.net/pokedex-swsh/rolycoly/,['rock'],Coal Pokémon,0.3,12.0,255,30,40,50,40,50,30
+838,Carkol,https://www.serebii.net/pokedex-swsh/carkol/,"['rock', 'fire']",Coal Pokémon,1.1,78.0,120,80,60,90,60,70,50
+839,Coalossal,https://www.serebii.net/pokedex-swsh/coalossal/,"['rock', 'fire']",Coal Pokémon,2.8,310.5,45,110,80,120,80,90,30
+840,Applin,https://www.serebii.net/pokedex-swsh/applin/,"['grass', 'dragon']",Apple Core Pokémon,0.2,0.5,255,40,40,80,40,40,20
+841,Flapple,https://www.serebii.net/pokedex-swsh/flapple/,"['grass', 'dragon']",Apple Wing Pokémon,0.3,1.0,45,70,110,80,95,60,70
+842,Appletun,https://www.serebii.net/pokedex-swsh/appletun/,"['grass', 'dragon']",Apple Nectar Pokémon,0.4,13.0,45,110,85,80,100,80,30
+843,Silicobra,https://www.serebii.net/pokedex-swsh/silicobra/,['ground'],Sand Snake Pokémon,2.2,7.6,255,52,57,75,35,50,46
+844,Sandaconda,https://www.serebii.net/pokedex-swsh/sandaconda/,['ground'],Sand Snake Pokémon,3.8,65.5,120,72,107,125,65,70,71
+845,Cramorant,https://www.serebii.net/pokedex-swsh/cramorant/,"['flying', 'water']",Gulp Pokémon,0.8,18.0,45,70,85,55,85,95,85
+846,Arrokuda,https://www.serebii.net/pokedex-swsh/arrokuda/,['water'],Rush Pokémon,0.5,1.0,255,41,63,40,40,30,66
+847,Barraskewda,https://www.serebii.net/pokedex-swsh/barraskewda/,['water'],Skewer Pokémon,1.3,30.0,60,61,123,60,60,50,136
+848,Toxel,https://www.serebii.net/pokedex-swsh/toxel/,"['electric', 'poison']",Baby Pokémon,0.4,11.0,75,40,38,35,54,35,40
+849,Toxtricity,https://www.serebii.net/pokedex-swsh/toxtricity/,"['electric', 'poison']",Punk Pokémon,1.6,40.0,45,75,98,70,114,70,75
+850,Sizzlipede,https://www.serebii.net/pokedex-swsh/sizzlipede/,"['fire', 'bug']",Radiator Pokémon,0.7,1.0,190,50,65,45,50,50,45
+851,Centiskorch,https://www.serebii.net/pokedex-swsh/centiskorch/,"['fire', 'bug']",Radiator Pokémon,3.0,120.0,75,100,115,65,90,90,65
+852,Clobbopus,https://www.serebii.net/pokedex-swsh/clobbopus/,['fighting'],Tantrum Pokémon,0.6,4.0,180,50,68,60,50,50,32
+853,Grapploct,https://www.serebii.net/pokedex-swsh/grapploct/,['fighting'],Jujitsu Pokémon,1.6,39.0,45,80,118,90,70,80,42
+854,Sinistea,https://www.serebii.net/pokedex-swsh/sinistea/,['ghost'],Black Tea Pokémon,0.1,0.2,120,40,45,45,74,54,50
+855,Polteageist,https://www.serebii.net/pokedex-swsh/polteageist/,['ghost'],Black Tea Pokémon,0.2,0.4,60,60,65,65,134,114,70
+856,Hatenna,https://www.serebii.net/pokedex-swsh/hatenna/,['psychic'],Calm Pokémon,0.4,3.4,235,42,30,45,56,53,39
+857,Hattrem,https://www.serebii.net/pokedex-swsh/hattrem/,['psychic'],Serene Pokémon,0.6,4.8,120,57,40,65,86,73,49
+858,Hatterene,https://www.serebii.net/pokedex-swsh/hatterene/,"['psychic', 'fairy']",Silent Pokémon,2.1,5.1,45,57,90,95,136,103,29
+859,Impidimp,https://www.serebii.net/pokedex-swsh/impidimp/,"['dark', 'fairy']",Wily Pokémon,0.4,5.5,255,45,45,30,55,40,50
+860,Morgrem,https://www.serebii.net/pokedex-swsh/morgrem/,"['dark', 'fairy']",Devious Pokémon,0.8,12.5,120,65,60,45,75,55,70
+861,Grimmsnarl,https://www.serebii.net/pokedex-swsh/grimmsnarl/,"['dark', 'fairy']",Bulk Up Pokémon,1.5,61.0,45,95,120,65,95,75,60
+862,Obstagoon,https://www.serebii.net/pokedex-swsh/obstagoon/,"['dark', 'normal']",Blocking Pokémon,1.6,46.0,45,93,90,101,60,81,95
+863,Perrserker,https://www.serebii.net/pokedex-swsh/perrserker/,['steel'],Viking Pokémon,0.8,28.0,90,70,110,100,50,60,50
+864,Cursola,https://www.serebii.net/pokedex-swsh/cursola/,['ghost'],Coral Pokémon,1.0,0.4,30,60,95,50,145,130,30
+865,Sirfetch'd,https://www.serebii.net/pokedex-swsh/sirfetch'd/,['fighting'],Wild Duck Pokémon,0.8,117.0,45,62,135,95,68,82,65
+Mr.,Rime,https://www.serebii.net/pokedex-swsh/mr.rime/,"['ice', 'psychic']",Comedian Pokémon,1.5,58.2,45,80,85,75,110,100,70
+867,Runerigus,https://www.serebii.net/pokedex-swsh/runerigus/,"['ground', 'ghost']",Grudge Pokémon,1.6,66.6,90,58,95,145,50,105,30
+868,Milcery,https://www.serebii.net/pokedex-swsh/milcery/,['fairy'],Cream Pokémon,0.2,0.3,200,45,40,40,50,61,34
+869,Alcremie,https://www.serebii.net/pokedex-swsh/alcremie/,['fairy'],Cream Pokémon,0.3,0.5,100,65,60,75,110,121,64
+870,Falinks,https://www.serebii.net/pokedex-swsh/falinks/,['fighting'],Formation Pokémon,3.0,62.0,45,65,100,100,70,60,75
+871,Pincurchin,https://www.serebii.net/pokedex-swsh/pincurchin/,['electric'],Sea Urchin Pokémon,0.3,1.0,75,48,101,95,91,85,15
+872,Snom,https://www.serebii.net/pokedex-swsh/snom/,"['ice', 'bug']",Worm Pokémon,0.3,3.8,190,30,25,35,45,30,20
+873,Frosmoth,https://www.serebii.net/pokedex-swsh/frosmoth/,"['ice', 'bug']",Frost Moth Pokémon,1.3,42.0,75,70,65,60,125,90,65
+874,Stonjourner,https://www.serebii.net/pokedex-swsh/stonjourner/,['rock'],Big Rock Pokémon,2.5,520.0,60,100,125,135,20,20,70
+875,Eiscue,https://www.serebii.net/pokedex-swsh/eiscue/,['ice'],Penguin Pokémon,1.4,89.0,60,75,80,110,65,90,50
+876,Indeedee,https://www.serebii.net/pokedex-swsh/indeedee/,"['psychic', 'normal']",Emotion Pokémon,0.9,28.0,30,60,65,55,105,95,95
+877,Morpeko,https://www.serebii.net/pokedex-swsh/morpeko/,"['electric', 'dark']",Two-Sided Pokémon,0.3,3.0,180,58,95,58,70,58,97
+878,Cufant,https://www.serebii.net/pokedex-swsh/cufant/,['steel'],Copperderm Pokémon,1.2,100.0,190,72,80,49,40,49,40
+879,Copperajah,https://www.serebii.net/pokedex-swsh/copperajah/,['steel'],Copperderm Pokémon,3.0,650.0,90,122,130,69,80,69,30
+880,Dracozolt,https://www.serebii.net/pokedex-swsh/dracozolt/,"['electric', 'dragon']",Fossil Pokémon,1.8,190.0,45,90,100,90,80,70,75
+881,Arctozolt,https://www.serebii.net/pokedex-swsh/arctozolt/,"['electric', 'ice']",Fossil Pokémon,2.3,150.0,45,90,100,90,90,80,55
+882,Dracovish,https://www.serebii.net/pokedex-swsh/dracovish/,"['water', 'dragon']",Fossil Pokémon,2.3,215.0,45,90,90,100,70,80,75
+883,Arctovish,https://www.serebii.net/pokedex-swsh/arctovish/,"['water', 'ice']",Fossil Pokémon,2.0,175.0,45,90,90,100,80,90,55
+884,Duraludon,https://www.serebii.net/pokedex-swsh/duraludon/,"['steel', 'dragon']",Alloy Pokémon,1.8,40.0,45,70,95,115,120,50,85
+885,Dreepy,https://www.serebii.net/pokedex-swsh/dreepy/,"['dragon', 'ghost']",Lingering Pokémon,0.5,2.0,45,28,60,30,40,30,82
+886,Drakloak,https://www.serebii.net/pokedex-swsh/drakloak/,"['dragon', 'ghost']",Caretaker Pokémon,1.4,11.0,45,68,80,50,60,50,102
+887,Dragapult,https://www.serebii.net/pokedex-swsh/dragapult/,"['dragon', 'ghost']",Stealth Pokémon,3.0,50.0,45,88,120,75,100,75,142
+888,Zacian,https://www.serebii.net/pokedex-swsh/zacian/,"['fairy', 'fairy', 'steel']",Warrior Pokémon,2.8,110.0,10,92,130,115,80,115,138
+889,Zamazenta,https://www.serebii.net/pokedex-swsh/zamazenta/,"['fighting', 'fighting', 'steel']",Warrior Pokémon,2.9,210.0,10,92,130,115,80,115,138
+890,Eternatus,https://www.serebii.net/pokedex-swsh/eternatus/,"['poison', 'dragon']",Gigantic Pokémon,20.0,950.0,255,140,85,95,145,95,130
+891,Kubfu,https://www.serebii.net/pokedex-swsh/kubfu/,['fighting'],Wushu Pokémon,0.6,12.0,3,60,90,60,53,50,72
+892,Urshifu,https://www.serebii.net/pokedex-swsh/urshifu/,"['fighting', 'dark', 'fighting', 'water']",Wushu Pokémon,1.9,105.0,3,100,130,100,63,60,97
+893,Zarude,https://www.serebii.net/pokedex-swsh/zarude/,"['dark', 'grass']",Rogue Monkey Pokémon,1.8,70.0,3,105,120,105,70,95,105
+894,Regieleki,https://www.serebii.net/pokedex-swsh/regieleki/,['electric'],Electron Pokémon,1.2,145.0,3,80,100,50,100,50,200
+895,Regidrago,https://www.serebii.net/pokedex-swsh/regidrago/,['dragon'],Dragon Orb Pokémon,2.1,200.0,3,200,100,50,100,50,80
+896,Glastrier,https://www.serebii.net/pokedex-swsh/glastrier/,['ice'],Wild Horse Pokémon,2.2,800.0,3,100,145,130,65,110,30
+897,Spectrier,https://www.serebii.net/pokedex-swsh/spectrier/,['ghost'],Swift Horse Pokémon,2.0,44.5,3,100,65,60,145,80,130
+898,Calyrex,https://www.serebii.net/pokedex-swsh/calyrex/,"['psychic', 'grass', 'psychic', 'ice', 'psychic', 'ghost']",King Pokémon (Calyrex)High King Pokémon (Rider),1.1,7.7,3,100,80,80,80,80,80
+899,Wyrdeer,https://www.serebii.net/pokedex-swsh/wyrdeer/,"['normal', 'psychic']",Big Horn Pokémon,1.8,95.1,135,103,105,72,105,75,65
+900,Kleavor,https://www.serebii.net/pokedex-swsh/kleavor/,"['bug', 'rock']",Axe Pokémon,1.8,56.96,115,70,135,95,45,70,85
+901,Ursaluna,https://www.serebii.net/pokedex-swsh/ursaluna/,"['ground', 'normal']",Peat Pokémon,2.4,185.6,75,130,140,105,45,80,50
+902,Basculegion,https://www.serebii.net/pokedex-swsh/basculegion/,"['water', 'ghost']",Big Fish Pokémon,2.4,70.4,135,120,112,65,80,75,78
+903,Sneasler,https://www.serebii.net/pokedex-swsh/sneasler/,"['fighting', 'poison']",Free Climb Pokémon,1.3,27.52,135,80,130,60,40,80,120
+904,Overqwil,https://www.serebii.net/pokedex-swsh/overqwil/,"['dark', 'poison']",Pin Cluster Pokémon,2.5,60.5,135,85,115,95,65,65,85
+905,Enamorus,https://www.serebii.net/pokedex-swsh/enamorus/,"['fairy', 'flying']",Love-Hate Pokémon,1.6,48,3,74,115,70,135,80,106
