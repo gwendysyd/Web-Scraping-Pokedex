@@ -6,11 +6,11 @@
 
 ## Descripción
 
-Describir el trabajo
+La aplicación consiste en técnicas de web scraping para extraer un dataset sobre diferentes Pokémon y sus características. Los datos se han extraído a partir de la web https://www.serebii.net/pokedex-swsh. Esta aplicación se corresponde con la Práctica 1 de la asignatura Tipología y Ciclo de Vida de los Datos del Máster en Ciencia de Datos de la UOC.
 
 ## Miembros del equipo
 
-Nombres de los integrantes del equipo
+Mireia Gomez Mengíbar y Gwendolin Herrera Carballido.
 
 ## Ficheros
 
@@ -45,4 +45,5 @@ El csv final con el resultado se guardará en la carpeta `output`.
 
 ## Recursos
 
-Añadir bibliografía
+* Subirats, L., Calvo, M. (2019). Web Scraping. Editorial UOC.
+* Lawson, R. (2015). Web Scraping with Python. Packt Publishing Ltd. Chapter 2. Scraping the Data.
