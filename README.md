@@ -43,6 +43,9 @@ y ejecuta el archivo main.py
 
 El csv final con el resultado se guardará en la carpeta `output`.
 
+## DOI del dataset generado
+https://doi.org/10.5281/zenodo.10106105 
+
 ## Recursos
 
 * Subirats, L., Calvo, M. (2019). Web Scraping. Editorial UOC.
